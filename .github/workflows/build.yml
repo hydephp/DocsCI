@@ -31,6 +31,10 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
 
+    - name: Setup dotenv
+      run: echo "SITE_URL=https://hydephp.github.io/" > .env
+      run: echo "TORCHLIGHT_TOKEN=${{ secrets.TORCHLIGHT_TOKEN }}" >> .env
+
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
 
