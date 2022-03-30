@@ -35,7 +35,7 @@ jobs:
       run: composer install --prefer-dist --no-progress
 
     - name: Run Node actions
-      run: npm install node-sass && npm install && npm run prod
+      run: npm install sass && npm install && npm run prod
 
     - name: Run the Hyde Builder
       run: php hyde build --pretty
