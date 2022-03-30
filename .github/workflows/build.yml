@@ -32,8 +32,13 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
 
-    - name: Install Node modules
-      run: npm install && npm run prod
+    - name: Run Node actions
+      steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install
+      - run: npm run prod
 
     - name: Run the Hyde Builder
       run: php hyde build --pretty
