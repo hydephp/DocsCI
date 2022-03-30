@@ -46,6 +46,10 @@ jobs:
     - name: Run the Hyde Builder
       run: php hyde build --pretty
 
+
+    - name: Create .nojekyll
+      run: touch _site/.nojekyll
+
     - name: Push compiled files
       uses: cpina/github-action-push-to-another-repository@main
       env:
