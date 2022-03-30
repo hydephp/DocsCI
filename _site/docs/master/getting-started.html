@@ -76,7 +76,9 @@
             >
                 <header class="h-16 p-4 border-b flex items-center">
                     <h2 class="font-bold opacity-75 hover:opacity-100 w-fit">
-                        <a href="../docs/master/index.html"> HydePHP Docs </a>
+                        <a href="../../docs/master/index.html">
+                            HydePHP Docs
+                        </a>
                     </h2>
                 </header>
                 <nav
@@ -123,7 +125,9 @@
                     </ul>
                 </nav>
                 <footer class="p-4 mt-auto border-t">
-                    <a href="../index.html" class="opacity-75 hover:opacity-100"
+                    <a
+                        href="../../index.html"
+                        class="opacity-75 hover:opacity-100"
                         >Back to home page</a
                     >
                 </footer>
@@ -136,7 +140,7 @@
                     id="documentation-article"
                     itemscope
                     itemtype="https://schema.org/Article"
-                    class="mx-auto prose max-w-3xl"
+                    class="mx-auto prose max-w-3xl torchlight-enabled"
                 >
                     <div itemprop="articleBody">
                         <h1>Getting Started</h1>
@@ -237,16 +241,7 @@
                         <p>
                             <strong>Example of a front-matter section</strong>
                         </p>
-                        <pre><code class="language-yaml">---
-title: The title is the only value that is required
-description: A short description used in previews and SEO
-category: arbitrary-category-that-a,
-author: @TheMrHyde
-date: YYYY-MM-DD 16:00
----
-
-# Actual Markdown content is placed here
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="yaml" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">---</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">2</span><span style="color: #F07178;">title</span><span style="color: #89DDFF;">:</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">The title is the only value that is required</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">3</span><span style="color: #F07178;">description</span><span style="color: #89DDFF;">:</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">A short description used in previews and SEO</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">4</span><span style="color: #F07178;">category</span><span style="color: #89DDFF;">:</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">arbitrary-category-that-a,</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">5</span><span style="color: #F07178;">author</span><span style="color: #89DDFF;">:</span><span style="color: #A6ACCD;"> @</span><span style="color: #C3E88D;">TheMrHyde</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">6</span><span style="color: #F07178;">date</span><span style="color: #89DDFF;">:</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">YYYY-MM-DD 16:00</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">7</span><span style="color: #FFCB6B;">---</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">8</span>&nbsp;</div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">9</span><span style="color: #676E95;"># Actual Markdown content is placed here</span></div></code></pre>
                         <blockquote>
                             <p>
                                 At the moment no nested attributes are
@@ -359,19 +354,12 @@ date: YYYY-MM-DD 16:00
                             want to match the styles of the rest of your app you
                             can extend the default layout.
                         </p>
-                        <pre><code class="language-blade">@extends('hyde::layouts.app')
-@section('content')
-
-// Place content here
-
-@endsection
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="blade" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #89DDFF;">@extends</span><span style="color: #A6ACCD;">(</span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">hyde::layouts.app</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;">)</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">2</span><span style="color: #89DDFF;">@section</span><span style="color: #A6ACCD;">(</span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">content</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;">)</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">3</span>&nbsp;</div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">4</span><span style="color: #A6ACCD;">// Place content here</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">5</span>&nbsp;</div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">6</span><span style="color: #89DDFF;">@endsection</span></div></code></pre>
                         <p>
                             You can reference any Hyde components, or add your
                             own templates! You can also set the page title using
                         </p>
-                        <pre><code class="language-blade">@php($title = &quot;My Custom Title&quot;)
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="blade" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #89DDFF;">@php</span><span style="color: #A6ACCD;">(</span><span style="color: #89DDFF;">$</span><span style="color: #A6ACCD;">title </span><span style="color: #89DDFF;">=</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&quot;</span><span style="color: #C3E88D;">My Custom Title</span><span style="color: #89DDFF;">&quot;</span><span style="color: #A6ACCD;">)</span></div></code></pre>
                         <h3>Adding Images</h3>
                         <p>
                             All media files in the _media directory will get
@@ -380,8 +368,7 @@ date: YYYY-MM-DD 16:00
                             following syntax To reference an image in your
                             Markdown, use the following syntax
                         </p>
-                        <pre><code class="language-markdown">![Image Alt](../media/image.png &quot;Image Title&quot;) # Note the relative path
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="markdown" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #89DDFF;">![</span><span style="color: #C3E88D;">Image Alt</span><span style="color: #89DDFF;">]</span><span style="color: #89DDFF;">(</span><span style="color: #A6ACCD;">../media/image.png</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&quot;</span><span style="color: #C3E88D;">Image Title</span><span style="color: #89DDFF;">&quot;</span><span style="color: #89DDFF;">)</span><span style="color: #A6ACCD;"> # Note the relative path</span></div></code></pre>
                         <p>
                             Since most images are probably going to be in blog
                             posts or documentation pages you need to prepend the
@@ -395,6 +382,16 @@ date: YYYY-MM-DD 16:00
                                 Nested media directories are not yet supported.
                             </p>
                         </blockquote>
+                        <p class="mt-8">
+                            <i>
+                                Syntax highlighting by
+                                <a
+                                    href="https://torchlight.dev/"
+                                    rel="noopener nofollow"
+                                    >Torchlight.dev</a
+                                >
+                            </i>
+                        </p>
                     </div>
                 </article>
             </main>

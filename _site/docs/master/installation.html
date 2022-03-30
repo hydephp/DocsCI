@@ -76,7 +76,9 @@
             >
                 <header class="h-16 p-4 border-b flex items-center">
                     <h2 class="font-bold opacity-75 hover:opacity-100 w-fit">
-                        <a href="../docs/master/index.html"> HydePHP Docs </a>
+                        <a href="../../docs/master/index.html">
+                            HydePHP Docs
+                        </a>
                     </h2>
                 </header>
                 <nav
@@ -123,7 +125,9 @@
                     </ul>
                 </nav>
                 <footer class="p-4 mt-auto border-t">
-                    <a href="../index.html" class="opacity-75 hover:opacity-100"
+                    <a
+                        href="../../index.html"
+                        class="opacity-75 hover:opacity-100"
                         >Back to home page</a
                     >
                 </footer>
@@ -136,7 +140,7 @@
                     id="documentation-article"
                     itemscope
                     itemtype="https://schema.org/Article"
-                    class="mx-auto prose max-w-3xl"
+                    class="mx-auto prose max-w-3xl torchlight-enabled"
                 >
                     <div itemprop="articleBody">
                         <h1>Installation Guide</h1>
@@ -150,17 +154,7 @@
                             into static HTML using the
                             <code>build</code> command.
                         </p>
-                        <pre><code class="language-bash">// torchlight! {&quot;lineNumbers&quot;: false}
-composer create-project hyde/hyde example-site
-
-cd example-site
-
-npm install &amp;&amp; npm run dev
-
-php hyde make:post
-
-php hyde build
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #FFCB6B;">composer</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">create-project</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde/hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">example-site</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #82AAFF;">cd</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">example-site</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #FFCB6B;">npm</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">install</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&amp;&amp;</span><span style="color: #A6ACCD;"> </span><span style="color: #FFCB6B;">npm</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">run</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">dev</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">make:post</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">build</span></div></code></pre>
                         <p>
                             If you now take a look in the
                             <code>_site</code> directory you should see that an
@@ -192,20 +186,13 @@ php hyde build
                             >.
                         </p>
                         <p>Or if you want to use the CLI, run</p>
-                        <pre><code class="language-bash">// torchlight! {&quot;lineNumbers&quot;: false}
-git clone https://github.com/hydephp/hyde.git
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #FFCB6B;">git</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">clone</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">https://github.com/hydephp/hyde.git</span></div></code></pre>
                         <h3>Finalizing</h3>
                         <p>
                             Next, navigate into the created project and install
                             the dependencies and build the assets.
                         </p>
-                        <pre><code class="language-bash">// torchlight! {&quot;lineNumbers&quot;: false}
-cd hyde
-composer install
-npm install
-npm run dev
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #82AAFF;">cd</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span></div><div class='line'><span style="color: #FFCB6B;">composer</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">install</span></div><div class='line'><span style="color: #FFCB6B;">npm</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">install</span></div><div class='line'><span style="color: #FFCB6B;">npm</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">run</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">dev</span></div></code></pre>
                         <blockquote>
                             <p>
                                 If you are not installing from a release you may
@@ -225,11 +212,7 @@ npm run dev
                             compile the site into static HTML using the
                             <code>build</code> command.
                         </p>
-                        <pre><code class="language-bash">// torchlight! {&quot;lineNumbers&quot;: false}
-php hyde make:post
-
-php hyde build
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">make:post</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">build</span></div></code></pre>
                         <p>
                             If you now take a look in the
                             <code>_site</code> directory you should see that an
@@ -242,6 +225,16 @@ php hyde build
                             Make sure you check out the
                             <a href="getting-started.html">getting started</a>
                             page to learn how to use Hyde!
+                        </p>
+                        <p class="mt-8">
+                            <i>
+                                Syntax highlighting by
+                                <a
+                                    href="https://torchlight.dev/"
+                                    rel="noopener nofollow"
+                                    >Torchlight.dev</a
+                                >
+                            </i>
                         </p>
                     </div>
                 </article>

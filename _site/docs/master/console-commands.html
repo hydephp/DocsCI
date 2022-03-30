@@ -76,7 +76,9 @@
             >
                 <header class="h-16 p-4 border-b flex items-center">
                     <h2 class="font-bold opacity-75 hover:opacity-100 w-fit">
-                        <a href="../docs/master/index.html"> HydePHP Docs </a>
+                        <a href="../../docs/master/index.html">
+                            HydePHP Docs
+                        </a>
                     </h2>
                 </header>
                 <nav
@@ -123,7 +125,9 @@
                     </ul>
                 </nav>
                 <footer class="p-4 mt-auto border-t">
-                    <a href="../index.html" class="opacity-75 hover:opacity-100"
+                    <a
+                        href="../../index.html"
+                        class="opacity-75 hover:opacity-100"
                         >Back to home page</a
                     >
                 </footer>
@@ -136,7 +140,7 @@
                     id="documentation-article"
                     itemscope
                     itemtype="https://schema.org/Article"
-                    class="mx-auto prose max-w-3xl"
+                    class="mx-auto prose max-w-3xl torchlight-enabled"
                 >
                     <div itemprop="articleBody">
                         <h1>Console Commands</h1>
@@ -173,22 +177,7 @@
                             You can always run the base command
                             <code>php hyde</code> to show the list of commands:
                         </p>
-                        <pre><code class="language-bash">// torchlight! {&quot;lineNumbers&quot;: false}
-     __ __        __    ___  __ _____
-    / // /_ _____/ /__ / _ \/ // / _ \
-   / _  / // / _  / -_) ___/ _  / ___/
-  /_//_/\_, /\_,_/\__/_/  /_//_/_/
-       /___/
-
-  v0.1.0-pre
-
-  USAGE: hyde &lt;command&gt; [options] [arguments]
-
-  build     Build the static site
-  inspire   Display an inspiring quote
-
-  make:post Scaffold a new Markdown blog post file
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #A6ACCD;">     </span><span style="color: #FFCB6B;">__</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">__</span><span style="color: #A6ACCD;">        </span><span style="color: #C3E88D;">__</span><span style="color: #A6ACCD;">    </span><span style="color: #C3E88D;">___</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">__</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">_____</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #FFCB6B;">/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">//</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">/_</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">_____/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">/__</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">_</span><span style="color: #A6ACCD;"> \/ </span><span style="color: #C3E88D;">//</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">_</span><span style="color: #A6ACCD;"> \</span></div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">_</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">//</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">_</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">/</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">-_</span><span style="color: #A6ACCD;">) ___/ _  / ___/</span></div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">/_//_/</span><span style="color: #A6ACCD;">\_</span><span style="color: #FFCB6B;">,</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">/</span><span style="color: #A6ACCD;">\_</span><span style="color: #C3E88D;">,_/</span><span style="color: #A6ACCD;">\_</span><span style="color: #C3E88D;">_/_/</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">/_//_/_/</span></div><div class='line'><span style="color: #A6ACCD;">       </span><span style="color: #FFCB6B;">/___/</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">v0.1.0-pre</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">USAGE:</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&lt;</span><span style="color: #FFCB6B;">command</span><span style="color: #89DDFF;">&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">[</span><span style="color: #A6ACCD;">options</span><span style="color: #89DDFF;">]</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">[</span><span style="color: #A6ACCD;">arguments</span><span style="color: #89DDFF;">]</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">build</span><span style="color: #A6ACCD;">     </span><span style="color: #C3E88D;">Build</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">the</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">static</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">site</span></div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">inspire</span><span style="color: #A6ACCD;">   </span><span style="color: #C3E88D;">Display</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">an</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">inspiring</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">quote</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">make:post</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">Scaffold</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">a</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">new</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">Markdown</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">blog</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">post</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">file</span></div></code></pre>
                         <blockquote>
                             <p>
                                 Tip: You can always add --help to a command to
@@ -201,8 +190,7 @@
                             command, which -- you guessed it -- builds your
                             static site!
                         </p>
-                        <pre><code class="language-bash">php hyde build
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">build</span></div></code></pre>
                         <blockquote>
                             <p>
                                 If you want to to prettify the output HTML you
@@ -224,8 +212,7 @@
                             Matter formatting and generates a slug from the
                             supplied title and even adds the current date.
                         </p>
-                        <pre><code class="language-bash">php hyde make:post
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">make:post</span></div></code></pre>
                         <blockquote>
                             <p>
                                 Tip: To overwrite existing files, supply the
@@ -248,8 +235,7 @@
                             following command. You may need to supply the
                             --force option to overwrite existing files.
                         </p>
-                        <pre><code class="language-bash">php hyde publish:config [--force]
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">publish:config</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">[</span><span style="color: #A6ACCD;">--force</span><span style="color: #89DDFF;">]</span></div></code></pre>
                         <h4>Publish a Homepage</h4>
                         <p>
                             Hyde comes with 3 build in homepages. On a fresh
@@ -303,8 +289,7 @@
                             customize / override the package's views.
                         </p>
                         <p>To publish the views, use</p>
-                        <pre><code class="language-bash">php hyde publish:views
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">publish:views</span></div></code></pre>
                         <p>
                             you will then be asked to select which views you
                             want to publish. There are 3 options:
@@ -346,31 +331,7 @@
                             The command is <code>php hyde validate</code> and
                             gives an output similar to this
                         </p>
-                        <pre><code class="language-bash">// torchlight! {&quot;lineNumbers&quot;: false}
-$ php hyde validate
-
-Running validation tests!
-
-   PASS  CheckForPageConflictsTest
-   ✓ check for conflicts between blade and markdown pages
-
-   PASS  CheckThatAnIndexFileExistsTest
-   ✓ check that an index file exists
-
-   WARN  CheckThatDocumentationPagesHaveAnIndexPageTest
-   ! check that documentation pages have an index page
-   → Could not find an index.md file in the _docs directory!
-
-   PASS  CheckThatFrontendAssetsExistTest
-   ✓ check that app.css exist
-   ✓ check that tailwind.css exist
-
-
-  Tests:  1 warnings, 4 passed
-  Time:   0.31s
-
-All done!
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #A6ACCD;">$ </span><span style="color: #C3E88D;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">validate</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #FFCB6B;">Running</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">validation</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">tests!</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">PASS</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">CheckForPageConflictsTest</span></div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">✓</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">check</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">for</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">conflicts</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">between</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">blade</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">and</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">markdown</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">pages</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">PASS</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">CheckThatAnIndexFileExistsTest</span></div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">✓</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">check</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">that</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">an</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">index</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">file</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">exists</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">WARN</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">CheckThatDocumentationPagesHaveAnIndexPageTest</span></div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #89DDFF;">!</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">check</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">that</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">documentation</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">pages</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">have</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">an</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">index</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">page</span></div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">→</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">Could</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">not</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">find</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">an</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">index.md</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">file</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">in</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">the</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">_docs</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">directory!</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">PASS</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">CheckThatFrontendAssetsExistTest</span></div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">✓</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">check</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">that</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">app.css</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">exist</span></div><div class='line'><span style="color: #A6ACCD;">   </span><span style="color: #FFCB6B;">✓</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">check</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">that</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">tailwind.css</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">exist</span></div><div class='line'>&nbsp;</div><div class='line'>&nbsp;</div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">Tests:</span><span style="color: #A6ACCD;">  </span><span style="color: #C3E88D;">1</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">warnings,</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">4</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">passed</span></div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #FFCB6B;">Time:</span><span style="color: #A6ACCD;">   </span><span style="color: #C3E88D;">0.31s</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #FFCB6B;">All</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">done!</span></div></code></pre>
                         <h2>NPM Commands</h2>
                         <p>
                             The NPM commands are used to compile the frontend
@@ -413,14 +374,23 @@ All done!
                             refreshes your pages once they are changed.
                         </p>
                         <p><strong>To start the preview run</strong></p>
-                        <pre><code class="language-bash">npm run watch
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">npm</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">run</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">watch</span></div></code></pre>
                         <p>
                             A browser page should automatically be opened. If
                             not, just navigate to
                             <a href="http://localhost:3000/"
                                 >http://localhost:3000/</a
                             >.
+                        </p>
+                        <p class="mt-8">
+                            <i>
+                                Syntax highlighting by
+                                <a
+                                    href="https://torchlight.dev/"
+                                    rel="noopener nofollow"
+                                    >Torchlight.dev</a
+                                >
+                            </i>
                         </p>
                     </div>
                 </article>

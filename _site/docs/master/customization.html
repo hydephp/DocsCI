@@ -76,7 +76,9 @@
             >
                 <header class="h-16 p-4 border-b flex items-center">
                     <h2 class="font-bold opacity-75 hover:opacity-100 w-fit">
-                        <a href="../docs/master/index.html"> HydePHP Docs </a>
+                        <a href="../../docs/master/index.html">
+                            HydePHP Docs
+                        </a>
                     </h2>
                 </header>
                 <nav
@@ -123,7 +125,9 @@
                     </ul>
                 </nav>
                 <footer class="p-4 mt-auto border-t">
-                    <a href="../index.html" class="opacity-75 hover:opacity-100"
+                    <a
+                        href="../../index.html"
+                        class="opacity-75 hover:opacity-100"
                         >Back to home page</a
                     >
                 </footer>
@@ -136,7 +140,7 @@
                     id="documentation-article"
                     itemscope
                     itemtype="https://schema.org/Article"
-                    class="mx-auto prose max-w-3xl"
+                    class="mx-auto prose max-w-3xl torchlight-enabled"
                 >
                     <div itemprop="articleBody">
                         <h1>Customizing your Site</h1>
@@ -178,25 +182,13 @@
                             >, this setting allows you to toggle various
                             modules.
                         </p>
-                        <pre><code class="language-php">// torchlight! {&quot;lineNumbers&quot;: false}
-'features' =&gt; [
-    Features::blogPosts(),
-    Features::bladePages(),
-    Features::markdownPages(),
-    // Features::documentationPages(),
-],
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="php" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">features</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">[</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #FFCB6B;">Features</span><span style="color: #89DDFF;">::</span><span style="color: #82AAFF;">blogPosts</span><span style="color: #89DDFF;">(),</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #FFCB6B;">Features</span><span style="color: #89DDFF;">::</span><span style="color: #82AAFF;">bladePages</span><span style="color: #89DDFF;">(),</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #FFCB6B;">Features</span><span style="color: #89DDFF;">::</span><span style="color: #82AAFF;">markdownPages</span><span style="color: #89DDFF;">(),</span></div><div class='line'><span style="color: #89DDFF;">    </span><span style="color: #676E95;">// Features::documentationPages(),</span></div><div class='line'><span style="color: #89DDFF;">],</span></div></code></pre>
                         <h3>Footer</h3>
                         <p>
                             The footer can be customized using Markdown, and
                             even disabled completely.
                         </p>
-                        <pre><code class="language-php">// torchlight! {&quot;lineNumbers&quot;: false}
-'footer' =&gt; [
-  'enabled' =&gt; true,
-  'markdown' =&gt; 'Site built with [HydePHP](https://github.com/hydephp/hyde).'
-],
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="php" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">footer</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">[</span></div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">enabled</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">true,</span></div><div class='line'><span style="color: #A6ACCD;">  </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">markdown</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">Site built with [HydePHP](https://github.com/hydephp/hyde).</span><span style="color: #89DDFF;">&#39;</span></div><div class='line'><span style="color: #89DDFF;">],</span></div></code></pre>
                         <h3>Navigation Menu &amp; Sidebar</h3>
                         <p>
                             One of my (the author's) favourite features with
@@ -234,15 +226,7 @@
                             them last.
                         </p>
                         <p>Let's see an example:</p>
-                        <pre><code class="language-php">// torchlight! {&quot;lineNumbers&quot;: false}
-// This is the default values in the config. It puts the readme.md first in order.
-'documentationPageOrder' =&gt; [
-    'readme', // This is the first entry, so it gets the priority 0
-    'installation', // This gets priority 1
-    'getting-started', // And this gets priority 2
-    // Any other pages not listed will get priority 999 
-]
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="php" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #676E95;">// This is the default values in the config. It puts the readme.md first in order.</span></div><div class='line'><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">documentationPageOrder</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">[</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">readme</span><span style="color: #89DDFF;">&#39;</span><span style="color: #89DDFF;">,</span><span style="color: #A6ACCD;"> </span><span style="color: #676E95;">// This is the first entry, so it gets the priority 0</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">installation</span><span style="color: #89DDFF;">&#39;</span><span style="color: #89DDFF;">,</span><span style="color: #A6ACCD;"> </span><span style="color: #676E95;">// This gets priority 1</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">getting-started</span><span style="color: #89DDFF;">&#39;</span><span style="color: #89DDFF;">,</span><span style="color: #A6ACCD;"> </span><span style="color: #676E95;">// And this gets priority 2</span></div><div class='line'><span style="color: #89DDFF;">    </span><span style="color: #676E95;">// Any other pages not listed will get priority 999</span></div><div class='line'><span style="color: #89DDFF;">]</span></div></code></pre>
                         <blockquote>
                             <p>
                                 Navigation menu items will be ordered in the
@@ -264,21 +248,7 @@
                             the syntax for adding custom links is documented in
                             the config. Here are some examples:
                         </p>
-                        <pre><code class="language-php">// torchlight! {&quot;lineNumbers&quot;: false}
-// External link
-[
-    'title' =&gt; 'GitHub',
-    'destination' =&gt; 'https://github.com/hydephp/hyde',
-    'priority' =&gt; 1200,
-],
-
-// Internal link (Hyde automatically resolves relative paths)
-[
-    'title' =&gt; 'Featured Blog Post',
-    'slug' =&gt; 'posts/hello-world',
-    // The 'priority' is not required.
-]
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="php" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color: #676E95;">// External link</span></div><div class='line'><span style="color: #89DDFF;">[</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">title</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">GitHub</span><span style="color: #89DDFF;">&#39;</span><span style="color: #89DDFF;">,</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">destination</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">https://github.com/hydephp/hyde</span><span style="color: #89DDFF;">&#39;</span><span style="color: #89DDFF;">,</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">priority</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #F78C6C;">1200</span><span style="color: #89DDFF;">,</span></div><div class='line'><span style="color: #89DDFF;">],</span></div><div class='line'>&nbsp;</div><div class='line'><span style="color: #676E95;">// Internal link (Hyde automatically resolves relative paths)</span></div><div class='line'><span style="color: #89DDFF;">[</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">title</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">Featured Blog Post</span><span style="color: #89DDFF;">&#39;</span><span style="color: #89DDFF;">,</span></div><div class='line'><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">slug</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">posts/hello-world</span><span style="color: #89DDFF;">&#39;</span><span style="color: #89DDFF;">,</span></div><div class='line'><span style="color: #89DDFF;">    </span><span style="color: #676E95;">// The &#39;priority&#39; is not required.</span></div><div class='line'><span style="color: #89DDFF;">]</span></div></code></pre>
                         <h4>Removing Items (Blacklist)</h4>
                         <p>
                             Sometimes, especially if you have a lot of pages,
@@ -288,10 +258,7 @@
                             blacklist. As you can see, the <code>404</code> page
                             has already been filled in for you.
                         </p>
-                        <pre><code class="language-php">'navigationMenuBlacklist' =&gt; [
-    '404'
-],
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="php" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">navigationMenuBlacklist</span><span style="color: #89DDFF;">&#39;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">=&gt;</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">[</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">2</span><span style="color: #A6ACCD;">    </span><span style="color: #89DDFF;">&#39;</span><span style="color: #C3E88D;">404</span><span style="color: #89DDFF;">&#39;</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">3</span><span style="color: #89DDFF;">],</span></div></code></pre>
                         <blockquote>
                             <p>
                                 Tip: You can publish the included 404 page using
@@ -318,6 +285,16 @@
                             To edit the default component you need to publish
                             them first using the
                             <code>hyde publish:views</code> command.
+                        </p>
+                        <p class="mt-8">
+                            <i>
+                                Syntax highlighting by
+                                <a
+                                    href="https://torchlight.dev/"
+                                    rel="noopener nofollow"
+                                    >Torchlight.dev</a
+                                >
+                            </i>
                         </p>
                     </div>
                 </article>

@@ -78,7 +78,9 @@
             >
                 <header class="h-16 p-4 border-b flex items-center">
                     <h2 class="font-bold opacity-75 hover:opacity-100 w-fit">
-                        <a href="../docs/master/index.html"> HydePHP Docs </a>
+                        <a href="../../docs/master/index.html">
+                            HydePHP Docs
+                        </a>
                     </h2>
                 </header>
                 <nav
@@ -125,7 +127,9 @@
                     </ul>
                 </nav>
                 <footer class="p-4 mt-auto border-t">
-                    <a href="../index.html" class="opacity-75 hover:opacity-100"
+                    <a
+                        href="../../index.html"
+                        class="opacity-75 hover:opacity-100"
                         >Back to home page</a
                     >
                 </footer>
@@ -138,7 +142,7 @@
                     id="documentation-article"
                     itemscope
                     itemtype="https://schema.org/Article"
-                    class="mx-auto prose max-w-3xl"
+                    class="mx-auto prose max-w-3xl torchlight-enabled"
                 >
                     <div itemprop="articleBody">
                         <h1>
@@ -259,11 +263,7 @@
                             for instructions.
                         </p>
                         <h3>Using Composer (recommended)</h3>
-                        <pre><code class="language-bash">composer create-project hyde/hyde --stability=dev
-
-cd hyde
-npm install &amp;&amp; npm run dev
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">composer</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">create-project</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde/hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">--stability=dev</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">2</span>&nbsp;</div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">3</span><span style="color: #82AAFF;">cd</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span></div><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">4</span><span style="color: #FFCB6B;">npm</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">install</span><span style="color: #A6ACCD;"> </span><span style="color: #89DDFF;">&amp;&amp;</span><span style="color: #A6ACCD;"> </span><span style="color: #FFCB6B;">npm</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">run</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">dev</span></div></code></pre>
                         <h3>Requirements</h3>
                         <blockquote>
                             <p>
@@ -309,8 +309,7 @@ npm install &amp;&amp; npm run dev
                             Then to compile the site into static HTML all you
                             have to do is execute the Hyde build command.
                         </p>
-                        <pre><code class="language-bash">php hyde build
-</code></pre>
+                        <pre><code data-theme="material-theme-palenight" data-lang="bash" class='torchlight' style='background-color: #292D3E; --theme-selection-background: #00000080;'><!-- Syntax highlighted by torchlight.dev --><div class='line'><span style="color:#3A3F58; text-align: right; -webkit-user-select: none; user-select: none;" class="line-number">1</span><span style="color: #FFCB6B;">php</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">hyde</span><span style="color: #A6ACCD;"> </span><span style="color: #C3E88D;">build</span></div></code></pre>
                         <p>
                             Your site will then be saved in the _site directory,
                             which you can then upload to your static web host.
@@ -445,6 +444,16 @@ npm install &amp;&amp; npm run dev
                                 >.
                             </li>
                         </ul>
+                        <p class="mt-8">
+                            <i>
+                                Syntax highlighting by
+                                <a
+                                    href="https://torchlight.dev/"
+                                    rel="noopener nofollow"
+                                    >Torchlight.dev</a
+                                >
+                            </i>
+                        </p>
                     </div>
                 </article>
             </main>
