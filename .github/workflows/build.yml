@@ -50,7 +50,7 @@ jobs:
     - name: Create .nojekyll
       run: touch _site/.nojekyll
 
-    - name Create readme
+    - name: Create readme
       run: wget https://github.com/hydephp/hydephp.github.io/blob/13f089c271c25fcc90730bd4c0c9772f4088e1c8/README.md -O _site/README.md
 
     - name: Push compiled files
