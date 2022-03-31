@@ -50,6 +50,9 @@ jobs:
     - name: Create .nojekyll
       run: touch _site/.nojekyll
 
+    - name: Create docs redirect
+      run: echo '<meta http-equiv="refresh" content="0;url=/docs/master/index.html" />' > _site/docs/index.html
+
     - name: Create readme
       run: wget https://raw.githubusercontent.com/hydephp/hydephp.github.io/13f089c271c25fcc90730bd4c0c9772f4088e1c8/README.md -O _site/README.md
 
