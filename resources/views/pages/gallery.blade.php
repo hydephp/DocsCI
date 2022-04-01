@@ -30,7 +30,7 @@
 			## Write something awesome.
 			
 			Lorem markdownum Austri occupat redire sum sponte arcus,
-			[ferae](http://www.aetheraet.net/lacrimissortita.aspx) longo,
+			[ferae](https://www.example.org/foo) longo,
 			timuit magnanimus aera, violentam. Tractu ter.
 			
 			1. Pelopeia et terras iussa cavernas
@@ -72,7 +72,7 @@
 				alt="screenshot.png">
 		</div>
 		<p>
-			<a href="https://github.com/hydephp/examples/blob/master/examples/markdown-documentation/installation.md">View source on GitHub</a>
+			<a href="https://github.com/hydephp/examples/blob/24218d98cf86aea217729337ad80801d6930f5a0/examples/markdown-documentation/installation.md">View source on GitHub</a>
 		</p>
 	</section>
 
