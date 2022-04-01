@@ -29,7 +29,7 @@ Static web hosting has become incredibly cheap, to the point where dozens of com
 Are you ready to go static? Why not give HydePHP a spin! That's what this blog uses. It's stupidly simple, endlessly hackable, and in my opinion: totally awesome.
 
 -> Dive in to the source code at [GitHub](https://github.com/hydephp/hyde)
--> Check out the [documentation](docs/index.html) (built with Hyde of course) 
+-> Check out the [documentation](https://hydephp.github.io/docs) (built with Hyde of course) 
 
 You can also create a new project using Composer:
 ```bash
