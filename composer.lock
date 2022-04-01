@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8294ea19f3a7e949e8dc260d877ce84e",
+    "content-hash": "7ff0c3c51bee6fd3f2916dbaf1ccfca2",
     "packages": [
         {
             "name": "brick/math",
@@ -911,16 +911,16 @@
         },
         {
             "name": "hyde/framework",
-            "version": "v0.6.2-alpha",
+            "version": "v0.7.0-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hydephp/framework.git",
-                "reference": "00582da6675eea56f30bd2f605c3d216328ee494"
+                "reference": "ff7e83bb6b78cf15aae9426292ea39255fe2751a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hydephp/framework/zipball/00582da6675eea56f30bd2f605c3d216328ee494",
-                "reference": "00582da6675eea56f30bd2f605c3d216328ee494",
+                "url": "https://api.github.com/repos/hydephp/framework/zipball/ff7e83bb6b78cf15aae9426292ea39255fe2751a",
+                "reference": "ff7e83bb6b78cf15aae9426292ea39255fe2751a",
                 "shasum": ""
             },
             "require": {
@@ -957,9 +957,9 @@
             "description": "The HydePHP Framework",
             "support": {
                 "issues": "https://github.com/hydephp/framework/issues",
-                "source": "https://github.com/hydephp/framework/tree/v0.6.2-alpha"
+                "source": "https://github.com/hydephp/framework/tree/v0.7.0-alpha"
             },
-            "time": "2022-03-30T14:14:52+00:00"
+            "time": "2022-04-01T08:19:25+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -7367,16 +7367,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.19",
+            "version": "9.5.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "35ea4b7f3acabb26f4bb640f8c30866c401da807"
+                "reference": "12bc8879fb65aef2138b26fc633cb1e3620cffba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/35ea4b7f3acabb26f4bb640f8c30866c401da807",
-                "reference": "35ea4b7f3acabb26f4bb640f8c30866c401da807",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/12bc8879fb65aef2138b26fc633cb1e3620cffba",
+                "reference": "12bc8879fb65aef2138b26fc633cb1e3620cffba",
                 "shasum": ""
             },
             "require": {
@@ -7454,7 +7454,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.19"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.20"
             },
             "funding": [
                 {
@@ -7466,7 +7466,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-15T09:57:31+00:00"
+            "time": "2022-04-01T12:37:26+00:00"
         },
         {
             "name": "sebastian/cli-parser",
