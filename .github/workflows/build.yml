@@ -68,8 +68,8 @@ jobs:
     - name: Create docs redirect
       run: echo '<meta http-equiv="refresh" content="0;url=/docs/master/index.html" />' > _site/docs/index.html
 
-    - name: Create readme
-      run: wget https://raw.githubusercontent.com/hydephp/hydephp.github.io/13f089c271c25fcc90730bd4c0c9772f4088e1c8/README.md -O _site/README.md
+    # - name: Create readme
+    # run: wget https://raw.githubusercontent.com/hydephp/hydephp.github.io/13f089c271c25fcc90730bd4c0c9772f4088e1c8/README.md -O _site/README.md
 
     - name: Push compiled files
       uses: cpina/github-action-push-to-another-repository@main
@@ -79,4 +79,4 @@ jobs:
         source-directory: '_site'
         destination-github-username: 'hydephp'
         destination-repository-name: 'hydephp.github.io'
-        target-branch: master
+        target-branch: gh-pages
