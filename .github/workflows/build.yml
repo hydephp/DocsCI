@@ -73,5 +73,5 @@ jobs:
         source-directory: '_site'
         destination-github-username: 'hydephp'
         destination-repository-name: 'hydephp.github.io'
-        target-directory: '_site'
+        target-directory: 'docs'
         target-branch: master
