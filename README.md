@@ -8,7 +8,7 @@ This repo is part of the CI pipeline for the https://hydephp.github.io/ website 
 You are very welcomne to contribute to the documentation source Markdown in the https://github.com/hydephp/docs/ repo. They will automatically be pushed to this repo.
 
 ## How does it work?
-When a file is changed on the Docs repo it gets automatically pushed to the `_docs` directory here in the DocsCI repo. Once a file here is changed the CI will kick up and compile the site to static HTML. It then uploads the compiled files to the [website repo](https://github.com/hydephp/hydephp.github.io) where the site then gets automatically uploaded to GitHub Pages.
+When a file is changed on the Docs repo it gets automatically pushed to the `_docs` directory here in the DocsCI repo. Once a file here is changed the CI will kick in and compile the site to static HTML. It then uploads the compiled files to the [website repo](https://github.com/hydephp/hydephp.github.io) where the site then gets automatically uploaded to GitHub Pages.
 
 ## Usage
 
