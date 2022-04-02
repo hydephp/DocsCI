@@ -54,7 +54,7 @@
 				alt="screenshot.png">
 		</div>
 		<p>
-			<a href="https://github.com/hydephp/examples/blob/master/examples/markdown-pages/installation.md">View source on GitHub</a>
+			<a href="https://github.com/hydephp/examples/blob/24218d98cf86aea217729337ad80801d6930f5a0/examples/markdown-pages/hyde-demo-markdown-page.md">View source on GitHub</a>
 		</p>
 	</section>
 
