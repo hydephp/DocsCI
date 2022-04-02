@@ -88,13 +88,13 @@
 			<div class="shrink-0 w-4 sm:w-48"></div>
 		</div>
 		<div class="snap-center shrink-0 first:pl-8 last:pr-8">
-			<img class="shrink-0 w-80 rounded-lg" data-aos="fade-left" src="https://raw.githubusercontent.com/hydephp/examples/master/media/devices/post_example_ios_8.png" />
+			<img class="shrink-0 rounded-lg w-auto lg:w-80" data-aos="fade-left" src="https://raw.githubusercontent.com/hydephp/examples/master/media/devices/post_example_ios_8.png" />
 		</div>
 		<div class="snap-center shrink-0 first:pl-8 last:pr-8">
-			<img class="shrink-0 w-80 rounded-lg" data-aos="fade-up" src="https://raw.githubusercontent.com/hydephp/examples/master/media/devices/post_feed_ios_8.png" />
+			<img class="shrink-0 rounded-lg w-auto lg:w-80" data-aos="fade-up" src="https://raw.githubusercontent.com/hydephp/examples/master/media/devices/post_feed_ios_8.png" />
 		</div>
 		<div class="snap-center shrink-0 first:pl-8 last:pr-8">
-			<img class="shrink-0 w-80 rounded-lg" data-aos="fade-right" src="https://raw.githubusercontent.com/hydephp/examples/master/media/devices/docs_example_ios_8.png" />
+			<img class="shrink-0 rounded-lg w-auto lg:w-80" data-aos="fade-right" src="https://raw.githubusercontent.com/hydephp/examples/master/media/devices/docs_example_ios_8.png" />
 		</div>
 		<div class="snap-center shrink-0">
 			<div class="shrink-0 w-4 sm:w-48"></div>
