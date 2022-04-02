@@ -20,11 +20,6 @@
 
 </script>
 
-<header class="text-center py-4" style="background-color: orange;">
-	<h2 class="font-bold text-lg">🚨 Heads up! This page is still under construction! 👷‍♂️</h2>
-	See the source, and contribute, at <a href="https://github.com/hydephp/docs">GitHub</a>!
-</header>
-
 	<section class="py-16 px-4 lg:min-h-screen text-center">
 		<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 px-3 my-3">
 			Turn Markdown into Blog Posts
