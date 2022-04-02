@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "hyde/framework": "^0.7.4-alpha",
+        "hyde/framework": "^0.7.5-alpha",
         "illuminate/view": "^9.0",
         "laminas/laminas-text": "*",
         "laravel-zero/framework": "^9.0",
