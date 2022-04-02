@@ -1,8 +1,24 @@
 @extends('hyde::layouts.app')
 @section('content')
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script>
+	// Are animations enabled?
+	var animationsEnabled = true;
 
+	// Disable animations if prefers-reduced-motion is enabled
+	if (window.matchMedia && window.matchMedia('(prefers-reduced-motion)').matches) {
+		console.log('Prefers reduced motion detected. Animations disabled.');
+		animationsEnabled = false;
+	} else {
+		// Add the stylesheet
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.href = 'https://unpkg.com/aos@next/dist/aos.css';
+		document.head.appendChild(link);
+
+	}
+
+</script>
 
 <header class="text-center py-4" style="background-color: orange;">
 	<h2 class="font-bold text-lg">🚨 Heads up! This page is still under construction! 👷‍♂️</h2>
@@ -164,7 +180,10 @@
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init();
+	// If animations are enabled
+	if (animationsEnabled === true) {
+		AOS.init();
+	}
 </script>
 
 @endsection
