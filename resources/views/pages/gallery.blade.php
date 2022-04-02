@@ -51,10 +51,13 @@
 	<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 px-3">
 		With ease. Front Matter included.
 	</strong>
-	<div class="p-8  max-w-5xl mx-auto">
-		<img class="shadow-2xl mx-auto"
-		src="https://raw.githubusercontent.com/hydephp/examples/master/examples/markdown-pages/screenshot.png"
-		alt="screenshot.png" data-aos="fade-up">
+	<div class="p-8  max-w-5xl mx-auto" data-aos="fade-up">
+		<picture class="shadow-2xl mx-auto">
+			<source media="(max-width: 425px)" srcset="./media/markdown-page-example-ios.png">
+			<img 
+				src="./media/markdown-page-example-mbp.png"
+				alt="markdown-page-example">
+		</picture>
 	</div>
 	<p>
 		<a href="https://github.com/hydephp/examples/blob/24218d98cf86aea217729337ad80801d6930f5a0/examples/markdown-pages/hyde-demo-markdown-page.md">View source on GitHub</a>
@@ -67,10 +70,14 @@
 	<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 px-3">
 		All without breaking a sweat.
 	</strong>
-	<div class="p-8 max-w-5xl mx-auto">
-		<img class="shadow-2xl mx-auto"
-		src="https://raw.githubusercontent.com/hydephp/examples/master/examples/markdown-documentation/screenshot_mbp.png"
-		alt="screenshot.png" data-aos="fade-up">
+
+	<div class="p-8  max-w-5xl mx-auto" data-aos="fade-up">
+		<picture class="shadow-2xl mx-auto">
+			<source media="(max-width: 425px)" srcset="./media/documentation-page-example-ios.png">
+			<img 
+				src="./media/documentation-page-example-mbp.png"
+				alt="documentation-page-example">
+		</picture>
 	</div>
 	<p>
 		<a href="https://github.com/hydephp/examples/blob/24218d98cf86aea217729337ad80801d6930f5a0/examples/markdown-documentation/installation.md">View source on GitHub</a>
