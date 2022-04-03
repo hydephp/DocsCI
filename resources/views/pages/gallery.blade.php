@@ -26,23 +26,20 @@
 	<div class="text-xl text-slate-700">
 		<small>*Unless you want to, of course.</small>
 	</div>
-	<figure class="overflow-hidden mx-auto" style="max-width: 80vw;" data-aos="fade-up">
-		<img src="./media/delta-compiled-vector.svg" alt="Code Snippet:
-		---
-		title: Hello World!
-		description: Short post excerpt for previews and meta tags
-		category: demo
-		author: mr_hyde
-		date: 2022-03-29 09:16
-		---
-		## Write something awesome.
-		Lorem markdownum Austri occupat redire sum sponte arcus,
-		[ferae](https://www.example.org/foo) longo,
-		timuit magnanimus aera, violentam. Tractu ter.
-		1. Pelopeia et terras iussa cavernas
-		2. Petit ignoscite ac nuda miserum Tereus
-		3. Tuli facinus Panaque virgo sentire copia">
-	</figure>
+	<style>
+		#argon-section-header {
+			align-items: center;
+		}
+	</style>
+	<div id="argon-section-header" class="hidden lg:flex max-w-7xl my-8 mx-auto items-center clear-both lg:px-8">
+		<div class="float-left z-10" style="margin-right: -40px;" data-aos="fade-right">
+			@include('components.gallery.example-argon-header')
+		</div>
+		<div class="float-right" data-aos="fade-up">
+			@include('components.gallery.example-argon-image-header')
+		</div>
+	</div>
+	<div class="clear-both"></div>
 </section>
 <section class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen bg-slate-100">
 	<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 px-3 my-3">
