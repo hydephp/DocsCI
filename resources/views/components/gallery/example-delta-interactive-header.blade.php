@@ -31,6 +31,8 @@
 	}
 	#delta-container {
 		position: relative;
+		width: fit-content;
+		margin: 0 auto;
 	}
 	#delta-container #slider {
 		width: 350px;
@@ -46,7 +48,7 @@
 </style>
 
 <div id="delta-container">
-	<div id="delta">
+	<div id="delta" >
 	
 		<figure id="start"></figure>
 		
