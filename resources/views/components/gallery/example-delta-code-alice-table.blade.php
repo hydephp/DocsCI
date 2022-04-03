@@ -1,4 +1,4 @@
-<aside class="w-full lg:w-1/2 p-4 m-4 mt-8 prose" data-aos="zoom-in-left">
+<aside class="w-full lg:w-1/2 p-4 m-4 mt-8 prose" data-aos="fade-left">
 	<table class="border mdl-data-table mdl-js-data-table aVTXAb-BeDmAc-LJTIlf-jyrRxf" style="">
 		<thead>
 			<tr>

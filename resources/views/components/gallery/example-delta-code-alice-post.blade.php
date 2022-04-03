@@ -1,4 +1,4 @@
-<figure class="w-full px-4 md:px-20 lg:px-4 lg:w-1/2 p-4 m-4" data-aos="zoom-in-right">
+<figure class="w-full px-4 md:px-20 lg:px-4 lg:w-1/2 p-4 m-4" data-aos="fade-up">
 	<section id="aaiwhtsc-delta-code">
 		<header>
 			<menu> <button class="red"></button> <button class="yellow"></button> <button class="green"></button> </menu>
