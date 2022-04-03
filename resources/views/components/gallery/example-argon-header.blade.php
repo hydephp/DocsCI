@@ -1,7 +1,9 @@
+<style>pre{border-radius:.25rem;margin-top:1rem;margin-bottom:1rem;overflow-x:auto}pre code.torchlight{display:block;min-width:-webkit-max-content;min-width:-moz-max-content;min-width:max-content;padding-top:1rem;padding-bottom:1rem}pre code.torchlight .line{padding-left:1rem;padding-right:1rem}pre code.torchlight .line-number{margin-right:1rem}.argon-card{min-width:320px;max-width:800px;border-radius:16px;overflow:hidden;background:#292d3e;width:fit-content}.argon-card article,code,menu,pre{margin:0;padding:0}.argon-card pre>code{font-family:'Fira Code',monospace}.argon-card header{padding:8px 4px;background:#212529;color:#fff;display:flex;align-items:center}.argon-card header h1{font-size:14px;font-weight:400;margin:0 auto;color:rgba(255,255,255,.75);font-family:sans-serif}.argon-card header menu{user-select:none;margin-left:8px;float:left;position:absolute}.argon-card header menu button{all:unset;display:inline-block;width:12px;height:12px;border-radius:50%;cursor:pointer;opacity:.75}.argon-card header menu button:hover{opacity:1}.argon-card header menu button.red{background-color:#f3615a}.argon-card header menu button.yellow{background-color:#f4c036}.argon-card header menu button.green{background-color:#3ccb3e}</style>
+
 <style>
     #argon-21119f2 {
         z-index: 1;
-        font-size: 62.5%;
+        font-size: 50%;
     }
     #argon-21119f2 header {
         padding: 4px 4px;
@@ -11,8 +13,19 @@
         width: 8px;
         height: 8px;
     }
+
+    @media (min-width: 1000px) {
+        #argon-21119f2 {
+            font-size: 62.5%;
+        }
+    }
+    @media (min-width: 1400px) {
+        #argon-21119f2 {
+            font-size: 75%;
+            margin-top: 40px;
+        }
+    }
 </style>
-<style>pre{border-radius:.25rem;margin-top:1rem;margin-bottom:1rem;overflow-x:auto}pre code.torchlight{display:block;min-width:-webkit-max-content;min-width:-moz-max-content;min-width:max-content;padding-top:1rem;padding-bottom:1rem}pre code.torchlight .line{padding-left:1rem;padding-right:1rem}pre code.torchlight .line-number{margin-right:1rem}.argon-card{min-width:320px;max-width:800px;border-radius:16px;overflow:hidden;background:#292d3e;width:fit-content}.argon-card article,code,menu,pre{margin:0;padding:0}.argon-card pre>code{font-family:'Fira Code',monospace}.argon-card header{padding:8px 4px;background:#212529;color:#fff;display:flex;align-items:center}.argon-card header h1{font-size:14px;font-weight:400;margin:0 auto;color:rgba(255,255,255,.75);font-family:sans-serif}.argon-card header menu{user-select:none;margin-left:8px;float:left;position:absolute}.argon-card header menu button{all:unset;display:inline-block;width:12px;height:12px;border-radius:50%;cursor:pointer;opacity:.75}.argon-card header menu button:hover{opacity:1}.argon-card header menu button.red{background-color:#f3615a}.argon-card header menu button.yellow{background-color:#f4c036}.argon-card header menu button.green{background-color:#3ccb3e}</style>
 <section class="argon-card text-left shadow-2xl" id="argon-21119f2">
     <header>
         <menu> <button class="red"></button> <button class="yellow"></button> <button class="green"></button> </menu>
