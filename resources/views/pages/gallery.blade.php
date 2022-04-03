@@ -31,6 +31,9 @@
 			align-items: center;
 		}
 	</style>
+	<div class="lg:hidden sm:px-8 py-4">
+		@include('components.gallery.example-delta-interactive-header')
+	</div>
 	<div id="argon-section-header" class="hidden lg:flex max-w-7xl my-8 mx-auto items-center clear-both lg:px-8">
 		<div class="float-left z-10" style="margin-right: -40px;" data-aos="fade-right">
 			@include('components.gallery.example-argon-header')
