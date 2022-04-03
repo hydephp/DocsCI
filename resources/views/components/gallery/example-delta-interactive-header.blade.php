@@ -40,6 +40,9 @@
 		top: 175px;
 		left: 400px;
 	}
+	#slider {
+		transition: opacity 0.5s ease-in-out;
+	}
 </style>
 
 <div id="delta-container">
@@ -51,42 +54,55 @@
 			<figure id="end"></figure>
 		</div>
 	</div>
-	<input type="range" min="0" max="100" value="0" class="slider" id="slider">
+	<input type="range" min="0" max="100" value="0" class="slider" id="slider" style="opacity: 0;">
 </div>
 <script>
-	var slider = document.getElementById("slider");
-	
-	var end = document.getElementById("end");
-	var mask = document.getElementById("mask");
+	// Check if user has prefers reduced motion enabled
+	if (window.matchMedia && window.matchMedia('(prefers-reduced-motion)').matches) {
+		console.log('Prefers reduced motion detected. Animations disabled.');
+	} else {
+		console.log('Prefers reduced motion not detected. Animations enabled.');
 
-	slider.oninput = function() {
-		end.style.top = this.value;
-			
-		var endPos = parseInt(this.value) + 1.5;
-	
-		mask.style.maxHeight = endPos + "%";
-	}
+		var slider = document.getElementById("slider");
 		
-	let lastKnownScrollPosition = 0;
-	let ticking = false;
+		var end = document.getElementById("end");
+		var mask = document.getElementById("mask");
 
-	function reactToScroll(scrollPos) {
-		value = (scrollPos - 20) * ((Math.exp(0.3) - 1) * (scrollPos * 0.01));
-		slider.value = value;
-		slider.dispatchEvent(new Event('input'));
-	}
+		slider.oninput = function() {
+			end.style.top = this.value;
+				
+			var endPos = parseInt(this.value) + 1.5;
+		
+			mask.style.maxHeight = endPos + "%";
+		}
+			
+		let lastKnownScrollPosition = 0;
+		let ticking = false;
 
-	document.addEventListener('scroll', function(e) {
-	lastKnownScrollPosition = window.scrollY;
+		function reactToScroll(scrollPos) {
+			value = (scrollPos - 20) * ((Math.exp(0.3) - 1) * (scrollPos * 0.01));
+			slider.value = value;
+			slider.dispatchEvent(new Event('input'));
+		}
 
-	if (!ticking) {
-		window.requestAnimationFrame(function() {
-		reactToScroll(lastKnownScrollPosition);
-		ticking = false;
+		document.addEventListener('scroll', function(e) {
+		lastKnownScrollPosition = window.scrollY;
+
+		if (!ticking) {
+			window.requestAnimationFrame(function() {
+			reactToScroll(lastKnownScrollPosition);
+			ticking = false;
+			});
+
+			ticking = true;
+		}
 		});
 
-		ticking = true;
+		// Show the slider on load
+		window.addEventListener('load', function(e) {
+			slider.style.opacity = 1;
+		});
+
+
 	}
-	});
-	
 </script>
