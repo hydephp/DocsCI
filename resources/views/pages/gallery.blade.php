@@ -44,25 +44,7 @@
 	</div>
 	<div class="clear-both"></div>
 </section>
-<section class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen bg-slate-100">
-	<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 px-3 my-3">
-		Create Markdown Driven Pages
-	</h1>
-	<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 px-3">
-		With ease. Front Matter included.
-	</strong>
-	<div class="p-8  max-w-5xl mx-auto" data-aos="fade-up">
-		<picture class="shadow-2xl mx-auto">
-			<source media="(max-width: 425px)" srcset="./media/markdown-page-example-ios.png">
-			<img 
-				src="./media/markdown-page-example-mbp.png"
-				alt="markdown-page-example">
-		</picture>
-	</div>
-	<p>
-		<a href="https://github.com/hydephp/examples/blob/24218d98cf86aea217729337ad80801d6930f5a0/examples/markdown-pages/hyde-demo-markdown-page.md">View source on GitHub</a>
-	</p>
-</section>
+@include('components.gallery.section-pages')
 <section class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen">
 	<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 px-3 my-3">
 		Beautiful Documentation Pages
