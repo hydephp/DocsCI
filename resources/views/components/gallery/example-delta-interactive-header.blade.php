@@ -45,6 +45,29 @@
 	#slider {
 		transition: opacity 0.5s ease-in-out;
 	}
+	@media screen and (max-width: 600px) {
+		#delta-container {
+			width: 100%;
+		}
+
+		#delta {
+			min-width: 280px;
+			width: 100%;
+			max-width: 100vw;
+		}
+		
+		#delta figure {
+			min-width: 280px;
+			width: 100%;
+			max-width: 100vw;
+		}
+		
+		#delta #mask {
+			min-width: 280px;
+			width: 100%;
+			max-width: 100vw;
+		}
+	}
 </style>
 
 <div id="delta-container">
