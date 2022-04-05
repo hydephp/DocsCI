@@ -1,5 +1,9 @@
 @extends('hyde::layouts.app')
 @section('content')
+
+
+<link rel="stylesheet" href="https://github.githubassets.com/assets/gist-embed-d3de7836d004.css">
+
 <script>
 	// Are animations enabled?
 	var animationsEnabled = true;
@@ -98,11 +102,12 @@
 		<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 px-3 text-center ">
 			Data Rich, SEO Friendly, and Accessible.
 		</strong>
+		<p class="text-md max-w-2xl mx-auto mt-4">
+			The Hyde Blogging Module is compiles your Markdown into Semantic HTML enriched with Microdata.
+			Automatic ARIA-roles ensure that your content is accessible to those using screenreaders.
+		</p>
 	</header>
-	<div class="flex flex-col lg:flex-row justify-between items-start my-8 max-w-screen-xl mx-auto">
-		@include('components.gallery.example-delta-code-alice-post')
-		@include('components.gallery.example-delta-code-alice-table')
-	</div>
+	@include('components.gallery.explorer')
 </aside>
 </div>
 </section>
@@ -122,5 +127,5 @@
 	if (animationsEnabled === true) {
 		AOS.init();
 	}
-</script>
+</script> 
 @endsection
