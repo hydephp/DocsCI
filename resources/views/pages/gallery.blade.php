@@ -1,6 +1,6 @@
 @extends('hyde::layouts.app')
 @section('content')
-
+@php($title = 'Gallery')
 
 <link rel="stylesheet" href="https://github.githubassets.com/assets/gist-embed-d3de7836d004.css">
 
@@ -106,16 +106,35 @@
 			The Hyde Blogging Module is compiles your Markdown into Semantic HTML enriched with Microdata.
 			Automatic ARIA-roles ensure that your content is accessible to those using screenreaders.
 		</p>
+		<div class="prose mx-auto mt-2">
+			<p>
+				This section will show you some of the rich data that Hyde is able to extract and generate from a simple Markdown post.
+			</p>
+			<p>
+				Try switching the tabs using the radio buttons to see diffrent views!
+			</p>
+		</div>
+		<p class="sm:hidden">
+			<strong>The mobile version of this section is still work in progress.</strong>
+		</p>
 	</header>
-	@include('components.gallery.explorer')
-</aside>
-</div>
+	<style>
+		.explorer-section {
+			margin: 40px auto;
+			max-width: 1200px;
+		}
+		.explorer-section iframe {
+			min-width: 640px;
+			min-height: 95vh;
+			margin: 40px auto;
+		}
+	</style>
+	
+	<section class="explorer-section">
+		<iframe loading="lazy" width="100%" height="100%" src="https://cdn.desilva.se/frontend/df6bc4b6-8665-4125-89e3-aee46ef7905e/explorer.html" frameborder="0"></iframe>
+	</section>
 </section>
-<footer>
-	<div class="text-center p-4">
-		Images hosted with ❤ by <a href="https://github.com">GitHub</a>
-	</div>
-</footer>
+
 <style>
 	.devices img {
 		max-height: 80vh;
