@@ -58,9 +58,9 @@
 	</strong>
 
 	<div class="p-8  max-w-5xl mx-auto" data-aos="fade-up">
-		<picture class="shadow-2xl mx-auto">
+		<picture>
 			<source media="(max-width: 425px)" srcset="./media/documentation-page-example-ios.png">
-			<img 
+			<img class="shadow-2xl mx-auto"
 				src="./media/documentation-page-example-mbp.png"
 				alt="documentation-page-example">
 		</picture>
