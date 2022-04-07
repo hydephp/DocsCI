@@ -125,7 +125,7 @@
 		}
 		.explorer-section iframe {
 			min-width: 640px;
-			min-height: 95vh;
+			min-height: 800px;
 			margin: 40px auto;
 		}
 	</style>
