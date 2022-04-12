@@ -169,6 +169,10 @@ return [
         'readme',
         'installation',
         'getting-started',
+        'directory-structure',
+        'console-commands',
+        'customization',
+        'updating-hyde'
     ],
 
     /*
