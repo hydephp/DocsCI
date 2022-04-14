@@ -69,7 +69,8 @@ jobs:
     # run: wget https://raw.githubusercontent.com/hydephp/hydephp.github.io/13f089c271c25fcc90730bd4c0c9772f4088e1c8/README.md -O _site/README.md
 
     - name: Push compiled files
-      uses: cpina/github-action-push-to-another-repository@main
+      uses: cpina/github-action-push-to-another-repository@v1.4.2
+
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
