@@ -8,6 +8,10 @@ date: 2022-03-19 16:19
 
 > This tutorial assumes you have already setup HydePHP.
 
+<p class="lead">This blog post will show how to scaffold a blog post using the Hyde CLI</p>
+
+Visual learner? Here is a short video showcasing the process: https://www.youtube.com/watch?v=gjpE1U527h8
+
 We will be using the make command to scaffold our file. In your favourite terminal, navigate to your project directory and run the command.
 
 ```bash
