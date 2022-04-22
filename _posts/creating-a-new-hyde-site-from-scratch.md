@@ -4,6 +4,7 @@ description: This blog post will guide you through creating a new Hyde site, whi
 category: tutorials
 author: Caen
 date: 2022-03-25 20:49
+updated: 2022-04-22 12:48
 ---
 
 <p class="lead">
@@ -155,7 +156,6 @@ title: About Us
 ---
 
 # About Us
-
 ```
 
 I'll add some extra content for demo purposes and then rebuild the site.
@@ -282,7 +282,7 @@ automatically enable the Torchlight CommonMark extension.
 Now when we run the build command you will notice it takes a bit longer,
 especially the first time, but no sweat because we got ourselves some beautiful code snippets!
 
-![Screenshot of the documentation page with syntax highlighting](https://hydephp.github.io/media/screely-1648307127051-min.png
+![Screenshot of the documentation page with syntax highlighting](https://hydephp.github.io/media/screely-1648307127051-min.png)
 
 ## Conclusion
 I think that brings this tutorial to a close.
