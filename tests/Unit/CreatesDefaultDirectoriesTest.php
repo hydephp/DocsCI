@@ -4,7 +4,7 @@ namespace Tests\Unit;
 
 use Hyde\Framework\Actions\CreatesDefaultDirectories;
 use Hyde\Framework\Hyde;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class CreatesDefaultDirectoriesTest extends TestCase
 {
@@ -20,7 +20,7 @@ class CreatesDefaultDirectoriesTest extends TestCase
      *
      * @return void
      */
-    public function testDefaultDirectoriesAreCreated()
+    public function test_default_directories_are_created()
     {
         foreach (CreatesDefaultDirectories::getRequiredDirectories() as $directory) {
             $this->assertTrue(is_dir(Hyde::path($directory)));

@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'env' => env('env', 'production'),
+    'env' => env('ENV', 'production'),
 
     /*
     |--------------------------------------------------------------------------
@@ -71,7 +71,6 @@ return [
     'providers' => [
         App\Providers\AppServiceProvider::class,
         Hyde\Framework\HydeServiceProvider::class,
-        Hyde\Framework\HomeServiceProvider::class,
     ],
 
     'aliases' => [

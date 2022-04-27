@@ -47,6 +47,7 @@ return [
     | Example: https://example.org/blog
     |
     */
+
     'site_url' => env('SITE_URL', null),
 
     /*
@@ -65,6 +66,7 @@ return [
     | for a list of tags and what what they are for.
     |
     */
+    
     'meta' => [
         // 'author' => 'Mr. Hyde',
         // 'description' => 'My Hyde Blog',
@@ -127,25 +129,11 @@ return [
     */
 
     'navigationMenuLinks' => [
-        [
-            'title' => 'GitHub',
-            'destination' => 'https://github.com/hydephp/hyde',
-            'priority' => 1200,
-        ],  
-        // [
-        //     'title' => 'Featured Blog Post',
-        //     'slug' => 'posts/hello-world',
-        // ]
-    ],
+        'title' => 'GitHub',
+        'destination' => 'https://github.com/hydephp/hyde',
+        'priority' => 1200,
+    ],  
 
-    /*
-    |--------------------------------------------------------------------------
-    | Navigation Menu Blacklist
-    |--------------------------------------------------------------------------
-    | There may be pages you want to exclude from the automatic navigation menu,
-    | such as error pages. Add their slugs here and they will not be included.
-    |
-    */
 
     'navigationMenuBlacklist' => [
         '404',

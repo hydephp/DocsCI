@@ -2,11 +2,11 @@
 
 namespace Tests\Feature;
 
+use Exception;
 use Hyde\Framework\DocumentationPageParser;
 use Hyde\Framework\Hyde;
 use Hyde\Framework\Models\DocumentationPage;
 use Hyde\Framework\Services\CollectionService;
-use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 
 class DocumentationPageTest extends TestCase
@@ -16,7 +16,7 @@ class DocumentationPageTest extends TestCase
      */
     public function test_can_get_collection_of_slugs()
     {
-        File::deleteDirectory(Hyde::path('_docs'));
+        deleteDirectory(Hyde::path('_docs'));
         mkdir(Hyde::path('_docs'));
         file_put_contents(Hyde::path('_docs/phpunit-test.md'), "# PHPUnit Test File \n Hello World!");
 
@@ -29,7 +29,7 @@ class DocumentationPageTest extends TestCase
 
     public function test_exception_is_thrown_for_missing_slug()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(Exception::class);
         $this->expectExceptionMessage('File _docs/invalid-file.md not found.');
         new DocumentationPageParser('invalid-file');
     }
@@ -57,7 +57,7 @@ class DocumentationPageTest extends TestCase
     /**
      * Test the Model.
      */
-    public function test_can_get_page_model_object()
+    public function test_can_get_page_model_object(): DocumentationPage
     {
         $parser = new DocumentationPageParser('phpunit-test');
         $object = $parser->get();
@@ -72,7 +72,7 @@ class DocumentationPageTest extends TestCase
     public function test_created_model_contains_expected_data(DocumentationPage $object)
     {
         $this->assertEquals('PHPUnit Test File', $object->title);
-        $this->assertEquals("# PHPUnit Test File \n Hello World!", $object->content);
+        $this->assertEquals("# PHPUnit Test File \n Hello World!", $object->body);
         $this->assertEquals('phpunit-test', $object->slug);
     }
 }

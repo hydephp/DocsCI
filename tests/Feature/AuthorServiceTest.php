@@ -5,11 +5,23 @@ namespace Tests\Feature;
 use Hyde\Framework\Models\Author;
 use Hyde\Framework\Services\AuthorService;
 use Illuminate\Support\Collection;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class AuthorServiceTest extends TestCase
 {
-    public function testPublishFileCreatesFile()
+    public function test_setup()
+    {
+        // If an authors.yml file exists, back it up and remove it
+        $service = new AuthorService();
+        $path = $service->filepath;
+
+        backup($path);
+        unlinkIfExists($path);
+
+        $this->assertTrue(true);
+    }
+
+    public function test_publish_file_creates_file()
     {
         $service = new AuthorService();
         $path = $service->filepath;
@@ -22,7 +34,7 @@ class AuthorServiceTest extends TestCase
         $this->assertFileExists($path);
     }
 
-    public function testGetAuthorsReturnsAuthorCollection()
+    public function test_get_authors_returns_author_collection()
     {
         $service = new AuthorService();
         $service->publishFile();
@@ -40,7 +52,7 @@ class AuthorServiceTest extends TestCase
         $this->assertEquals('https://github.com/hydephp/hyde', $author->website);
     }
 
-    public function testCanFindAuthorByUsername()
+    public function test_can_find_author_by_username()
     {
         $service = new AuthorService();
         $service->publishFile();
@@ -54,7 +66,7 @@ class AuthorServiceTest extends TestCase
         $this->assertEquals('https://github.com/hydephp/hyde', $author->website);
     }
 
-    public function testGetYamlCanParseFile()
+    public function test_get_yaml_can_parse_file()
     {
         $service = new AuthorService();
 
@@ -72,5 +84,19 @@ class AuthorServiceTest extends TestCase
                 ],
             ],
         ], $array);
+    }
+
+    public function test_teardown()
+    {
+        // Clean up any test files
+        $service = new AuthorService();
+        $path = $service->filepath;
+        unlinkIfExists($path);
+
+        // Restore the original authors.yml file
+
+        restore($path);
+
+        $this->assertTrue(true);
     }
 }
