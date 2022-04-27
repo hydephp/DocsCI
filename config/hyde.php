@@ -119,7 +119,7 @@ return [
     | you compile using NPM.
     */
 
-    'loadTailwindFromCDN' => true,
+    'loadTailwindFromCDN' => false,
 
     /*
     |--------------------------------------------------------------------------
