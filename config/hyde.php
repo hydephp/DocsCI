@@ -51,7 +51,8 @@ return [
     'site_url' => env('SITE_URL', null),
 
     /*
-    |----------------------    | Site Language
+    |--------------------------------------------------------------------------
+    | Site Language
     |--------------------------------------------------------------------------
     |
     | This value sets the language of your site and is used for the
@@ -197,7 +198,7 @@ return [
     |
     */
 
-    'docsDirectory' => 'docs',
+    'docsDirectory' => 'docs/master',
 
     /*
     |--------------------------------------------------------------------------
@@ -216,6 +217,10 @@ return [
         'readme',
         'installation',
         'getting-started',
+        'directory-structure',
+        'console-commands',
+        'customization',
+        'updating-hyde'
     ],
 
     /*
@@ -235,7 +240,5 @@ return [
         'maxHeadingLevel' => 4,
         'smoothPageScrolling' => true,
     ],
-
-    'docsDirectory' => 'docs/master',
 
 ];
