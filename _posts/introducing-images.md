@@ -1,8 +1,8 @@
 ---
 title: Introducing images!
-description: A short description used in previews and SEO
+description: The v0.10.0 release introduces featured images for blog posts.
 category: blog
-author: Mr. Hyde
+author: Caen
 date: 2022-04-11 14:57
 ---
 
