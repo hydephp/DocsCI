@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e65594a46c2e769c9eea85a93663748d",
+    "content-hash": "d746b6f4440658fbb8f9dda8d816e002",
     "packages": [
         {
             "name": "brick/math",
@@ -875,16 +875,16 @@
         },
         {
             "name": "hyde/framework",
-            "version": "dev-master",
+            "version": "v0.16.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hydephp/framework.git",
-                "reference": "fa3451b18a27ee6bf9c530bed2f1fe30df751202"
+                "reference": "e9ca247830703ce16393699128f7b949cccb1a36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hydephp/framework/zipball/fa3451b18a27ee6bf9c530bed2f1fe30df751202",
-                "reference": "fa3451b18a27ee6bf9c530bed2f1fe30df751202",
+                "url": "https://api.github.com/repos/hydephp/framework/zipball/e9ca247830703ce16393699128f7b949cccb1a36",
+                "reference": "e9ca247830703ce16393699128f7b949cccb1a36",
                 "shasum": ""
             },
             "require": {
@@ -902,7 +902,6 @@
             "suggest": {
                 "hyde/hyde": "The Framework package contains the Hyde Core. To create your site you should use the Hyde/Hyde project."
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -922,9 +921,9 @@
             "description": "The HydePHP Framework",
             "support": {
                 "issues": "https://github.com/hydephp/framework/issues",
-                "source": "https://github.com/hydephp/framework/tree/master"
+                "source": "https://github.com/hydephp/framework/tree/v0.16.0-beta"
             },
-            "time": "2022-04-27T20:46:21+00:00"
+            "time": "2022-04-27T20:42:47+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -8499,7 +8498,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "hyde/framework": 20,
         "hyde/realtime-compiler": 20
     },
     "prefer-stable": true,
