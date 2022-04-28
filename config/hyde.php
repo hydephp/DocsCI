@@ -47,7 +47,20 @@ return [
     | Example: https://example.org/blog
     |
     */
+
     'site_url' => env('SITE_URL', null),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Site Language
+    |--------------------------------------------------------------------------
+    |
+    | This value sets the language of your site and is used for the
+    | <html lang=""> element in the app layout. Default is 'en'.
+    |
+    */
+
+    'language' => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -65,6 +78,7 @@ return [
     | for a list of tags and what what they are for.
     |
     */
+
     'meta' => [
         // 'author' => 'Mr. Hyde',
         // 'description' => 'My Hyde Blog',
@@ -91,6 +105,22 @@ return [
 
         Features::torchlight(),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Asset Locations
+    |--------------------------------------------------------------------------
+    |
+    | Since v0.15.0, the default Hyde styles are no longer included as
+    | publishable resources. This is to make updating easier, and to
+    | reduce complexity. Instead, the assets are loaded through the
+    | jsDelivr CDN. You can also load Tailwind from the CDN by
+    | changing the config setting below. If you set it to
+    | false, Hyde will load the media/app.css, which
+    | you compile using NPM.
+    */
+
+    'loadTailwindFromCDN' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -131,7 +161,7 @@ return [
             'title' => 'GitHub',
             'destination' => 'https://github.com/hydephp/hyde',
             'priority' => 1200,
-        ],  
+        ],
         // [
         //     'title' => 'Featured Blog Post',
         //     'slug' => 'posts/hello-world',
@@ -151,6 +181,24 @@ return [
         '404',
         'dashboard',
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Documentation Site Output Directory
+    |--------------------------------------------------------------------------
+    |
+    | If you want to store the compiled documentation pages in a different
+    | directory than the default 'docs' directory, for example to set the
+    | specified version, you can specify the directory here.
+    |
+    | Note that you need to take care as to not set it to something that
+    | may conflict with other parts, such as media or posts directories.
+    |
+    | The default value is 'docs'.
+    |
+    */
+
+    'docsDirectory' => 'docs/master',
 
     /*
     |--------------------------------------------------------------------------
@@ -177,20 +225,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Documentation Site Output Directory
+    | Documentation Table of Contents Settings
     |--------------------------------------------------------------------------
     |
-    | If you want to store the compiled documentation pages in a different
-    | directory than the default 'docs' directory, for example to set the
-    | specified version, you can specify the directory here.
-    |
-    | Note that you need to take care as to not set it to something that
-    | may conflict with other parts, such as media or posts directories.
-    |
-    | The default value is 'docs'.
+    | The Hyde Documentation Module comes with a fancy Sidebar that, by default,
+    | has a Table of Contents included. Here, you can configure its behavior,
+    | content, look and feel. You can also disable the feature completely.
     |
     */
 
-    'docsDirectory' => 'docs/master',
+    'documentationPageTableOfContents' => [
+        'enabled' => true,
+        'minHeadingLevel' => 2,
+        'maxHeadingLevel' => 4,
+        'smoothPageScrolling' => true,
+    ],
 
 ];

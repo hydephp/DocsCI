@@ -2,7 +2,7 @@
 @section('content')
 
 <header class="w-screen pb-20 pt-32 lg:pt-44 flex flex-col text-center items-center justify-center min-h-[75vh]">
-	<h1 class="text-6xl md:text-7xl text-gray-800 font-black leading-7 md:leading-10">
+	<h1 class="text-6xl md:text-7xl text-gray-800 font-black leading-7 md:leading-10 dark:text-white">
 		HydePHP
 	</h1>
 	<div class="max-w-3xl p-8 mt-4">
@@ -20,7 +20,7 @@
 <section id="posts" class="mx-auto max-w-7xl py-16 px-8 lg:mt-8">
     <header class="lg:mb-12 xl:mb-16">
         <h2
-			class="text-3xl text-left opacity-75 leading-10 tracking-tight font-extrabold sm:leading-none mb-8 md:mb-12 md:text-4xl md:text-center lg:text-5xl">
+			class="text-3xl text-left opacity-75 dark:opacity-90 leading-10 tracking-tight font-extrabold sm:leading-none mb-8 md:mb-12 md:text-4xl md:text-center lg:text-5xl">
 			Latest Posts</h2>
     </header>
 
