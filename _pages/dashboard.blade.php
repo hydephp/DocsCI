@@ -153,7 +153,7 @@
                     <a
                         href="https://github.com/hydephp/hydephp.github.io/actions/workflows/pages/pages-build-deployment">
                         <img style="display: inline; margin: 4px 2px;"
-                            src="https://github.com/hydephp/hydephp.github.io/actions/workflows/pages/pages-build-deployment/badge.svg"
+                            src="https://github.com/hydephp/hydephp.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages"
                             alt="Pages build and deployment">
                     </a>
                 </div>
