@@ -2,12 +2,12 @@
 @section('content')
 
 <section class="py-16 px-4 text-center">
-    <h2 class="text-2xl md:text-3-xl lg:text-4xl font-black text-slate-700 px-3 my-3">
+    <h2 class="text-2xl md:text-3-xl lg:text-4xl font-black text-slate-700 dark:text-slate-200 px-3 my-3">
         Main Repositories
     </h2>
     <div class="flex flex-wrap justify-center max-w-7xl mx-auto my-4 lg:my-8">
         <div class="my-4 px-4 w-full md:w-1/2 xl:w-1/3 max-w-md">
-            <article class="bg-white p-4 rounded-lg shadow-xl">
+            <article class="bg-white text-slate-900 p-4 rounded-lg shadow-xl">
                 <header>
                     <h3 class="font-bold text-2xl text-left border-b mb-3 pb-3">The Hyde Template Repo</h3>
                     <a href="https://github.com/hydephp/hyde">
@@ -40,7 +40,7 @@
             </article>
         </div>
         <div class="my-4 px-4 w-full md:w-1/2 xl:w-1/3 max-w-md">
-            <article class="bg-white p-4 rounded-lg shadow-xl">
+            <article class="bg-white text-slate-900 p-4 rounded-lg shadow-xl">
                 <header>
                     <h3 class="font-bold text-2xl text-left border-b mb-3 pb-3">The Hyde Core Package</h3>
                     <a href="https://github.com/hydephp/framework">
@@ -75,8 +75,8 @@
         </div>
     </div>
 </section>
-<section class="py-16 px-4 text-center bg-gray-100">
-    <h2 class="text-2xl md:text-3-xl lg:text-4xl font-black text-slate-700 px-3 my-3">
+<section class="py-16 px-4 text-center bg-gray-100 dark:bg-slate-900">
+    <h2 class="text-2xl md:text-3-xl lg:text-4xl font-black text-slate-700 dark:text-slate-200 px-3 my-3">
         CI Repositories
     </h2>
     <p class="text-lg">
@@ -84,7 +84,7 @@
     </p>
     <div class="flex flex-wrap justify-center max-w-7xl mx-auto my-4 lg:my-8 items-stretch">
         <div class="my-4 px-4 w-full md:w-1/2 xl:w-1/3 max-w-md h-auto">
-            <article class="bg-white p-4 rounded-lg shadow-xl h-full">
+            <article class="bg-white text-slate-900 p-4 rounded-lg shadow-xl h-full">
                 <header>
                     <h3 class="font-bold text-2xl text-left border-b mb-3 pb-3">Markdown Docs Repo</h3>
                     <a href="https://github.com/hydephp/docs">
@@ -109,7 +109,7 @@
             </article>
         </div>
         <div class="my-4 px-4 w-full md:w-1/2 xl:w-1/3 max-w-md h-auto">
-            <article class="bg-white p-4 rounded-lg shadow-xl h-full">
+            <article class="bg-white text-slate-900 p-4 rounded-lg shadow-xl h-full">
                 <header>
                     <h3 class="font-bold text-2xl text-left border-b mb-3 pb-3">Hyde DocsCI Repo</h3>
                     <a href="https://github.com/hydephp/DocsCI">
@@ -135,7 +135,7 @@
             </article>
         </div>
         <div class="my-4 px-4 w-full md:w-1/2 xl:w-1/3 max-w-md h-auto">
-            <article class="bg-white p-4 rounded-lg shadow-xl h-full">
+            <article class="bg-white text-slate-900 p-4 rounded-lg shadow-xl h-full">
                 <header>
                     <h3 class="font-bold text-2xl text-left border-b mb-3 pb-3">GitHub Pages Repo</h3>
                     <a href="https://github.com/hydephp/hydephp.github.io">
