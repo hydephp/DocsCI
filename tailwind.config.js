@@ -3,17 +3,17 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
     darkMode: 'class',
     content: [
-        './_site/**/*.html',
         './resources/views/**/*.blade.php',
         './vendor/hyde/framework/resources/views/**/*.blade.php',
     ],
-    
+
     theme: {
         extend: {
             typography: {
                 DEFAULT: {
                     css: {
                         lineHeight: '1.5em',
+                        maxWidth: '96ch',
                         h2: {
                             marginBottom: '0.75em',
                             marginTop: '1.5em',
@@ -72,10 +72,25 @@ module.exports = {
                         }
                     },
                 },
+                invert: {
+                    css: {
+                        a: {
+                            color: '#6366f1',
+                            '&:hover': {
+                                color: '#5956eb',
+                            },
+                        },
+                    },
+                },
+            },
+            colors: {
+                indigo: {
+                    500: '#5956eb',
+                }
             },
         },
     },
-    
+
     plugins: [
         require('@tailwindcss/typography')
     ],
