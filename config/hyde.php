@@ -98,29 +98,39 @@ return [
     */
 
     'features' => [
+        // Page Modules
         Features::blogPosts(),
         Features::bladePages(),
         Features::markdownPages(),
         Features::documentationPages(),
 
+        // Frontend Features
+        Features::darkmode(),
+
+        // Integrations
         Features::torchlight(),
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | Asset Locations
+    | Asset Locations and Versions
     |--------------------------------------------------------------------------
     |
     | Since v0.15.0, the default Hyde styles are no longer included as
     | publishable resources. This is to make updating easier, and to
     | reduce complexity. Instead, the assets are loaded through the
-    | jsDelivr CDN. You can also load Tailwind from the CDN by
-    | changing the config setting below. If you set it to
-    | false, Hyde will load the media/app.css, which
-    | you compile using NPM.
+    | jsDelivr CDN.
+    |
+    | The CDN version is defined in the AssetService class,
+    | but can be changed here to a valid HydeFront tag.
+    |
+    | If you load HydeFront through Laravel Mix using the NPM package,
+    | you should disable the HydeFront CDN feature.
+    |
     */
 
-    'loadTailwindFromCDN' => false,
+    'loadHydeAssetsUsingCDN' => true,
+    // 'cdnVersionOverride' => 'v1.0.0,
 
     /*
     |--------------------------------------------------------------------------
@@ -184,6 +194,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Documentation Sidebar Header Name
+    |--------------------------------------------------------------------------
+    |
+    | By default, the sidebar title shown in the documentation page layouts uses
+    | the app name suffixed with "docs". You can change it with this setting.
+    |
+    */
+
+    'docsSidebarHeaderTitle' => config('app.name').' Docs',
+
+    /*
+    |--------------------------------------------------------------------------
     | Documentation Site Output Directory
     |--------------------------------------------------------------------------
     |
@@ -240,5 +262,18 @@ return [
         'maxHeadingLevel' => 4,
         'smoothPageScrolling' => true,
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Hyde Config Version @HydeConfigVersion 1.0.0
+    |--------------------------------------------------------------------------
+    |
+    | Hyde can use the value above to determine if this configuration file
+    | contains the latest config options. If your config needs updating,
+    | a message will be shown in the HydeCLI, unless disabled below.
+    |
+    */
+
+    'warnAboutOutdatedConfig' => true,
 
 ];
