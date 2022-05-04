@@ -1,16 +1,15 @@
-# Static Blog Builder using Laravel Zero
+# HydePHP - Elegant and Powerful Static App Builder
 
-<!-- Now 400 Commits! -->
-
-<p>
-    <a href="https://packagist.org/packages/hyde/hyde"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/packagist/v/hyde/hyde" alt="Latest Version on Packagist"></a>
-    <a href="https://packagist.org/packages/hyde/hyde"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/packagist/dt/hyde/hyde" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/hyde/framework"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/packagist/v/hyde/framework" alt="Latest Version on Packagist"></a>
-    <a href="https://packagist.org/packages/hyde/framework"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/packagist/dt/hyde/framework" alt="Total Downloads"></a>
-    <a href="https://github.com/hydephp/hyde/blob/master/LICENSE.md"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/github/license/hydephp/hyde" alt="License"></a>
-    <img style="display: inline; margin: 4px 2px;" src="https://github.com/hydephp/hyde/actions/workflows/test-suite.yml/badge.svg" alt="GitHub Actions">
-    <img style="display: inline; margin: 4px 2px;" src="https://github.com/hydephp/hyde/actions/workflows/codeql-analysis.yml/badge.svg" alt="GitHub Actions">
+<p> 
+    <a href="https://packagist.org/packages/hyde/hyde"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/packagist/v/hyde/hyde" alt="Latest Version on Packagist" title="Latest version of Hyde/Hyde"></a>
+    <a href="https://packagist.org/packages/hyde/framework"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/packagist/v/hyde/framework?include_prereleases" alt="Latest Version on Packagist" title="Latest version of Hyde/Framework"></a> 
+    <a href="https://packagist.org/packages/hyde/framework"><img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/packagist/dt/hyde/framework" alt="Total Downloads on Packagist"></a> 
+    <a href="https://github.com/hydephp/hyde/blob/master/LICENSE.md"> <img style="display: inline; margin: 4px 2px;" src="https://img.shields.io/github/license/hydephp/hyde" alt="License MIT"> </a>
+    <a href="https://hydephp.github.io/developer-tools/coverage-report/"><img style="display: inline; margin: 4px 2px;" src="https://cdn.desilva.se/microservices/coverbadges/badges/9b8f6a9a7a48a2df54e6751790bad8bd910015301e379f334d6ec74c4c3806d1.svg" alt="Test Coverage" title="Average coverage between categories"></a>
+    <img style="display: inline; margin: 4px 2px;" src="https://github.com/hydephp/framework/actions/workflows/test-suite.yml/badge.svg" alt="Test Suite">  <img style="display: inline; margin: 4px 2px;" src="https://github.styleci.io/repos/472503421/shield?branch=master" alt="StyleCI Status"> </a>
 </p>
+
+## Powered by Laravel Zero
 
 ## ⚠ Alpha Software Warning ⚠
 ### This is a very new project that has been made public to run further tests before the initial release. Please wait until v1.0 for production use.
@@ -23,7 +22,8 @@ HydePHP is a new Static Site Builder focused on writing content, not markup. Wit
 
 Hyde is powered by Laravel Zero which is a stripped-down version of the robust Laravel Framework. Using Blade templates the site is intelligently compiled into static HTML.
 
-Hyde is inspired by JekyllRB and is created for Developers who are comfortable writing posts in Markdown. It requires virtually no configuration out of the box as it favours convention over configuration. This is what makes Hyde different from other Laravel static site builders that are more focused on writing your blade views from scratch, which you can do with Hyde too if you want.
+Hyde is inspired by JekyllRB and is created for Developers who are comfortable writing posts in Markdown. It requires virtually no configuration out of the box as it favours convention over configuration.
+This is what makes Hyde different from other Laravel static site builders that are more focused on writing your blade views from scratch, which you can do with Hyde too if you want.
 
 Hyde is designed to be stupidly simple to get started with, while also remaining easily hackable and extendable. Hyde comes with a lightweight minimalist frontend layout built with TailwindCSS which you can extend and customize with the Blade components.
 
@@ -74,23 +74,23 @@ Your site will then be saved in the `_site` directory, which you can then upload
 If your site is missing the stylesheets you may need to run `npm install && npm run dev` to build the them.
 
 ### How it works
-Hyde scans the source directories prefixed with _underscores for Markdown files and intelligently compiles them into static HTML using Blade templates. The site is then saved in _docs.
+Hyde scans the source directories prefixed with _underscores for Markdown files and intelligently compiles them into static HTML using Blade templates automatically assigned depending on the source file. The site is then saved in _site.
 
 Hyde is "blog and documentation aware" and has built-in templates for both blogging and for creating beautiful documentation pages based on Laradocgen. Since Hyde is modular you can of course disable the modules you don't need.
 
 All links use relative paths, so you can deploy to a subdirectory without any problems which also makes the site work great when browsing the HTML files locally even without a web server.
 
-
 ### Serve a live preview
-Use `npm run watch` to watch the files for changes and start up a local dev server on port 3000 using Browsersync.
+Use `php hyde serve` to start the realtime compiler and access your site from [localhost:8080](http://localhost:8080/).
 
 ### NPM Commands
 See all commands in the documentation [Console Commands](https://hydephp.github.io/docs/master/console-commands.html)
+Hyde optionally uses NPM to compile TailwindCSS using Laravel Mix. Run it with `npm run dev/prod/watch`.
 
 ## Hacking Hyde
 Hyde is designed to be easy to use and easy to customize and hack. You can modify the source views and SCSS, customize the Tailwind config, and you can even create 100% custom HTML and Blade pages that get compiled into static HTML.
 
-While Hyde favours "convention over configuration" there are a few config options in the `config/hyde.php` file. All settings are prefilled with sensible defaults so you don't need to configure anything unless you want to!
+While Hyde favours "convention over configuration" there are serveral config options in the `config/hyde.php` file. All settings are prefilled with sensible defaults so you don't need to configure anything unless you want to!
 
 ## Extensions
 Hyde comes with built-in support for Torchlight Syntax Highlighting.
@@ -98,11 +98,8 @@ All you need to do is to set your API token in your .env file and
 Hyde will automatically enable the CommonMark extension.
 
 > Note that when using Torchlight the pages will take longer to generate as API calls need to be made.
-> However, Torchlight caches the response so this only affects the first time running the build, or if you update the page.
+> However, Torchlight caches the response so this mostly affects the first time running the build, or if you update the page.
 
 ## Known Issues
-Hyde does not automatically delete compiled HTML files when the source files have been removed. 
-However, you can supply the `--clean` flag to remove all content in the `_site` directory when running the build command.
-
 Currently, only top-level custom pages are supported. In the future, nested pages will be supported.
 For example, _site/directory/page.html
