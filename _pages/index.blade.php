@@ -198,6 +198,48 @@
 </div>
 </div>
 </section>
+
+<section class="mx-auto max-w-7xl py-16 px-8 bg-white dark:bg-gray-800">
+	<h2 class="text-center text-3xl font-bold">How does it work?</h2>
+	
+	<div class="flex flex-row w-full my-4">
+		<div class="lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
+			<h3>
+				Quick and painless installation
+			</h3>
+			<h4>
+				Hyde is installed similarly to Laravel
+			</h4>
+			<p>
+				Installation is easy by using composer. The installer creates a directory with all the files you need to get started, including Blade views and compiled Tailwind assets.
+			</p>
+		</div>
+		<div class="lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
+			<h3>
+				Save content in _source folders
+			</h3>
+			<h4>
+				Creating content is easy with Markdown
+			</h4>
+			<p>
+				Put your Markdown or Blade content in the source directories. The directory you use will determine the Blade layout and output path that will be used. 
+			</p>
+		</div>
+		<div class="lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
+			<h3>
+				Files are automatically discovered
+			</h3>
+			<h4>
+				Compiling is initiated with the HydeCLI
+			</h4>
+			<p>
+				When running the build command, Hyde will take your source files and intelligently compiles them into the output directory. During this build navigation menus and sidebars will be generated automatically.
+			</p>
+		</div>
+	</div>
+	
+</section>
+
 <section class="pb-20 pt-8 bg-gray-50 dark:bg-gray-800">
 	<div class="container items-center max-w-6xl px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
 		<div class="flex flex-wrap items-center -mx-3 justify-center">
