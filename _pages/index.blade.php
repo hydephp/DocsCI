@@ -7,6 +7,10 @@
 		border-radius: 1em 0;
 		padding: 0.125rem 0.5rem;
 	}
+
+	.dark mark {
+		background: linear-gradient(-100deg, #fece2fa8, #fddf47a4 95%, #fece2f8a);
+	}
 </style>
 
 <!--
@@ -36,18 +40,18 @@ Components based on https://devdojo.com/tails/app
 
 
 <!-- Section 1 -->
-<section id="features" class="px-2 py-32 bg-white md:px-0">
+<section id="features" class="px-2 py-32 bg-white dark:bg-gray-900 md:px-0">
 	<div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
 		<div class="flex flex-wrap items-center sm:-mx-3">
 			<div class="w-full md:w-1/2 md:px-3">
 				<div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-					<h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl">
+					<h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl">
 						<span class="block xl:inline">Create beautiful websites</span>
 						<span class="block text-indigo-600 xl:inline">in minutes!</span>
 					</h1>
 					<div>
-						<p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl mb-4">It's never been easier to build beautiful websites to show off your content to the world.</p>
-						<p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-lg md:max-w-3xl">Hyde comes with Tailwind-based Blade views so that you can focus on content, not markup.</p>
+						<p class="mx-auto text-base text-gray-500 dark:text-gray-200 sm:max-w-md lg:text-xl md:max-w-3xl mb-4">It's never been easier to build beautiful websites to show off your content to the world.</p>
+						<p class="mx-auto text-base text-gray-500 dark:text-gray-300 sm:max-w-md lg:text-lg md:max-w-3xl">Hyde comes with Tailwind-based Blade views so that you can focus on content, not markup.</p>
 					</div>
 				</div>
 			</div>
@@ -61,8 +65,8 @@ Components based on https://devdojo.com/tails/app
 </section>
 
 <!-- Section 2 -->
-<section class="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
-	<div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+<section class="w-full bg-white dark:bg-gray-900 pt-7 pb-7 md:pt-20 md:pb-24">
+	<div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 		
 		<!-- Image -->
 		<div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
@@ -70,51 +74,51 @@ Components based on https://devdojo.com/tails/app
 		</div>
 		
 		<!-- Content -->
-		<div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+		<div class="box-border order-first w-full text-black dark:text-white border-solid md:w-1/2 md:pl-10 md:order-none">
 			<h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
 				Boost Productivity
 			</h2>
-			<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-				Hyde is incredibly fast to get started with. <mark>Here's why.</mark>
+			<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-100 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+				Hyde is incredibly fast to get started with. <mark>Here's&nbsp;why.</mark>
 			</p>
 			<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span>
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Pre-built semantic Blade templates using TailwindCSS.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span>
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Easy asset managing with pre-configured Laravel Mix.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span>
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Content-first workflow using your choice of tools. 
 				</li>
 			</ul>
 		</div>
 		<!-- End  Content -->
 	</div>
-	<div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+	<div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
 		
 		<!-- Content -->
-		<div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+		<div class="box-border w-full text-black dark:text-white border-solid md:w-1/2 md:pl-6 xl:pl-32">
 			<h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
 				Automatic Content
 			</h2>
-			<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+			<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-100 border-0 border-gray-300 sm:pr-10 lg:text-lg">
 				<mark>Hyde takes care of the boring stuff</mark>, so you don't have to.
 			</p>
 			<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span>
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Automatic navigation and sidebars menus.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span>
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Intelligent metadata for SEO and accessibility.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span>
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Automatic file discovery without needing routing.
 				</li>
 			</ul>
