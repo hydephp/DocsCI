@@ -141,9 +141,8 @@ Components based on https://devdojo.com/tails/app
 	</div>
 </section>
 
-
-<!-- Section 1 -->
-<section class="py-20 bg-gray-50 dark:bg-gray-800">
+<a id="about"></a>
+<section class="py-20 bg-gray-50 dark:bg-gray-900">
 	<div class="container items-center max-w-6xl px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
 	  <div class="flex flex-wrap items-center -mx-3 justify-center">
 		<div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
@@ -173,6 +172,30 @@ Components based on https://devdojo.com/tails/app
 		  </div>
 		</div>
 		<div class="w-full px-3 mb-12 lg:w-2/5 order-0 lg:order-1 lg:mb-0"><img class="mx-auto sm:max-w-sm lg:max-w-full" src="../media/feature-graphic.png" alt="feature image"></div>
+	  </div>
+	</div>
+  </section>
+  
+<section class="pb-20 pt-8 bg-gray-50 dark:bg-gray-900">
+	<div class="container items-center max-w-6xl px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+	  <div class="flex flex-wrap items-center -mx-3 justify-center">
+		<div class=" w-full px-3 ">
+		  <div class="w-full lg:max-w-3xl mx-auto">
+			<h2 class="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading text-center">More about Hyde</h2>
+			<p class="m-4 text-gray-800 xl:mb-6 dark:text-gray-100">
+				<br>
+				HydePHP is a new Static Site Builder focused on writing content, not markup. With Hyde, it is easy to create static websites, blogs, and documentation pages using Markdown and (optionally) Blade.
+				<br><br>
+				Hyde is powered by Laravel Zero which is a stripped-down version of the robust Laravel Framework. Using Blade templates the site is intelligently compiled into static HTML.
+				<br><br>
+				Hyde is inspired by JekyllRB and is created for Developers who are comfortable writing posts in Markdown. It requires virtually no configuration out of the box as it favours convention over configuration. This is what makes Hyde different from other Laravel static site builders that are more focused on writing your blade views from scratch, which you can do with Hyde too if you want.
+				<br><br>
+				Hyde is designed to be stupidly simple to get started with, while also remaining easily hackable and extendable. Hyde comes with a lightweight minimalist frontend layout built with TailwindCSS which you can extend and customize with the Blade components.
+				<br><br>
+				Due to this powerful modularity yet elegant simplicity, Hyde is a great choice for developers no matter what their background or experience level.
+			</p>
+		  </div>
+		</div>
 	  </div>
 	</div>
   </section>
