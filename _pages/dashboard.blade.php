@@ -166,7 +166,8 @@
         Statistics
     </h2>
     <p class="text-lg">
-        Data compiled {{ Carbon\Carbon::now() }} via <a href="https://packagist.org/packages/hyde/framework/stats">Packagist</a>
+        Data compiled {{ Carbon\Carbon::now() }}.
+        See more at <a href="https://packagist.org/packages/hyde/framework/stats">Packagist</a>
     </p>
     <div>
         @include('components.statistics')
