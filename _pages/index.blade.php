@@ -202,8 +202,8 @@
 <section class="mx-auto max-w-7xl py-16 px-8 bg-white dark:bg-gray-800">
 	<h2 class="text-center text-3xl font-bold">How does it work?</h2>
 	
-	<div class="flex flex-row w-full my-4">
-		<div class="lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
+	<div class="flex flex-row w-full my-8 flex-wrap lg:flex-nowrap justify-center">
+		<div class="min-w-[280px] lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
 			<h3>
 				Quick and painless installation
 			</h3>
@@ -214,7 +214,7 @@
 				Installation is easy by using composer. The installer creates a directory with all the files you need to get started, including Blade views and compiled Tailwind assets.
 			</p>
 		</div>
-		<div class="lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
+		<div class="min-w-[280px] lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
 			<h3>
 				Save content in _source folders
 			</h3>
@@ -225,7 +225,7 @@
 				Put your Markdown or Blade content in the source directories. The directory you use will determine the Blade layout and output path that will be used. 
 			</p>
 		</div>
-		<div class="lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
+		<div class="min-w-[280px] lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-gray-100 dark:bg-gray-700 prose dark:prose-invert">
 			<h3>
 				Files are automatically discovered
 			</h3>
