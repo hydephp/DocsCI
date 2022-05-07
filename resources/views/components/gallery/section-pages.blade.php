@@ -49,9 +49,6 @@
 		<div class="p-8  max-w-5xl mx-auto">
 			<iframe loading="lazy" width="100%" height="100%" style="min-height: 550px; overflow: hidden; border-radius: 1rem;" src="https://cdn.desilva.se/frontend/df6bc4b6-8665-4125-89e3-aee46ef7905e/argon-blade-example-animated.html?1" frameborder="0"></iframe>
 		</div>
-		<p>
-			<a href="https://github.com/hydephp/examples/blob/24218d98cf86aea217729337ad80801d6930f5a0/examples/markdown-pages/hyde-demo-markdown-page.md">View source on GitHub</a>
-		</p>
 	</div>
 </div>
 
