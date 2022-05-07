@@ -11,6 +11,16 @@
 	.dark mark {
 		background: linear-gradient(-100deg, #fece2fa8, #fddf47a4 95%, #fece2f8a);
 	}
+
+
+    /* Gradients by https://uigradients.com/ */
+    .dark #app {
+        /* Royal */
+        background: #141E30; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left bottom, #243B55, #141E30); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
 </style>
 
 <!--
@@ -40,7 +50,7 @@ Components based on https://devdojo.com/tails/app
 
 
 <!-- Section 1 -->
-<section id="features" class="px-2 py-32 bg-white dark:bg-gray-900 md:px-0">
+<section id="features" class="px-2 py-32 bg-white dark:bg-gray-800 md:px-0">
 	<div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
 		<div class="flex flex-wrap items-center sm:-mx-3">
 			<div class="w-full md:w-1/2 md:px-3">
@@ -74,7 +84,7 @@ Components based on https://devdojo.com/tails/app
 </section>
 
 <!-- Section 2 -->
-<section class="w-full bg-white dark:bg-gray-900 pt-7 pb-7 md:pt-20 md:pb-24">
+<section class="w-full bg-white dark:bg-gray-800 pt-7 pb-7 md:pt-20 md:pb-24">
 	<div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 		
 		<!-- Image -->
@@ -142,7 +152,7 @@ Components based on https://devdojo.com/tails/app
 </section>
 
 <a id="about"></a>
-<section class="py-20 bg-gray-50 dark:bg-gray-900">
+<section class="py-20 bg-gray-50 dark:bg-gray-800">
 	<div class="container items-center max-w-6xl px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
 	  <div class="flex flex-wrap items-center -mx-3 justify-center">
 		<div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
@@ -176,7 +186,7 @@ Components based on https://devdojo.com/tails/app
 	</div>
   </section>
   
-<section class="pb-20 pt-8 bg-gray-50 dark:bg-gray-900">
+<section class="pb-20 pt-8 bg-gray-50 dark:bg-gray-800">
 	<div class="container items-center max-w-6xl px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
 	  <div class="flex flex-wrap items-center -mx-3 justify-center">
 		<div class=" w-full px-3 ">
