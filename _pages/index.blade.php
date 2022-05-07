@@ -91,15 +91,15 @@ Components based on https://devdojo.com/tails/app
 				Hyde is incredibly fast to get started with. <mark>Here's&nbsp;why.</mark>
 			</p>
 			<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-300 border-solid">
 					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Pre-built semantic Blade templates using TailwindCSS.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-300 border-solid">
 					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Easy asset managing with pre-configured Laravel Mix.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-300 border-solid">
 					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Content-first workflow using your choice of tools. 
 				</li>
@@ -118,15 +118,15 @@ Components based on https://devdojo.com/tails/app
 				<mark>Hyde takes care of the boring stuff</mark>, so you don't have to.
 			</p>
 			<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-300 border-solid">
 					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Automatic navigation and sidebars menus.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-300 border-solid">
 					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Intelligent metadata for SEO and accessibility.
 				</li>
-				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-400 border-solid">
+				<li class="box-border relative py-1 pl-0 text-left text-gray-500 dark:text-gray-300 border-solid">
 					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full"><span class="text-sm font-bold">✓</span></span>
 					Automatic file discovery without needing routing.
 				</li>
