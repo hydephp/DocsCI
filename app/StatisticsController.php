@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Support\Facades\Http;
 
 /**
- * @internal
+ * @internal If anyone sees this source code, I'm sorry. Just something I bodged together.
  */
 class StatisticsController
 {

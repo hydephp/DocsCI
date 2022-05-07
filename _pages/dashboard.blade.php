@@ -1,6 +1,17 @@
 @extends('hyde::layouts.app')
 @section('content')
-
+<section class="py-16 px-4 text-center bg-gray-100 dark:bg-slate-900">
+    <h2 class="text-2xl md:text-3-xl lg:text-4xl font-black text-slate-700 dark:text-slate-200 px-3 my-3">
+        Statistics
+    </h2>
+    <p class="text-lg prose text-center mx-auto">
+        Data compiled {{ Carbon\Carbon::now() }}.
+        See more at <a href="https://packagist.org/packages/hyde/framework/stats">Packagist</a>
+    </p>
+    <div>
+        @include('components.statistics')
+    </div>
+</section>
 <section class="py-16 px-4 text-center">
     <h2 class="text-2xl md:text-3-xl lg:text-4xl font-black text-slate-700 dark:text-slate-200 px-3 my-3">
         Main Repositories
@@ -159,18 +170,6 @@
                 </div>
             </article>
         </div>
-    </div>
-</section>
-<section class="py-16 px-4 text-center bg-gray-100 dark:bg-slate-900">
-    <h2 class="text-2xl md:text-3-xl lg:text-4xl font-black text-slate-700 dark:text-slate-200 px-3 my-3">
-        Statistics
-    </h2>
-    <p class="text-lg">
-        Data compiled {{ Carbon\Carbon::now() }}.
-        See more at <a href="https://packagist.org/packages/hyde/framework/stats">Packagist</a>
-    </p>
-    <div>
-        @include('components.statistics')
     </div>
 </section>
 @endsection
