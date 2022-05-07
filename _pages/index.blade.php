@@ -27,7 +27,7 @@
 Components based on https://devdojo.com/tails/app
 -->
 
-<header class="w-full pb-20 pt-32 lg:pt-44 flex flex-col text-center items-center justify-center min-h-[75vh]">
+<header class="w-full py-32 lg:pt-44 flex flex-col text-center items-center justify-center min-h-[75vh]">
 	<h1 class="text-6xl md:text-7xl text-gray-800 font-black leading-7 md:leading-10 dark:text-white">
 		HydePHP
 	</h1>
