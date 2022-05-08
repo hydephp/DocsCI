@@ -287,12 +287,14 @@
 </section>
 <style> html, body { scroll-behavior: smooth; } </style>
 @push('footer')
-<small>
-	Landing page attributions:
-	Components based on https://devdojo.com/tails/app.
-	Illustrations by 
-	<a href="https://icons8.com/illustrations/author/d7G1hwdhjPTV" rel="noopener noreferrer nofollow">Semenin Egor</a> from 
-	<a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
-</small>
+<div class="pb-2">
+	<small>
+		Landing page attributions:
+		Components based on https://devdojo.com/tails/app.
+		Illustrations by 
+		<a href="https://icons8.com/illustrations/author/d7G1hwdhjPTV" rel="noopener noreferrer nofollow">Semenin Egor</a> from 
+		<a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
+	</small>
+</div>
 @endpush
 @endsection

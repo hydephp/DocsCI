@@ -191,6 +191,7 @@ return [
         '404',
         'dashboard',
         'posts',
+        'privacy',
     ],
 
     /*
