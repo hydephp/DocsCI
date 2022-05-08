@@ -199,7 +199,9 @@
 </div>
 </section>
 
-<section class="mx-auto max-w-7xl py-16 px-8 bg-white dark:bg-gray-800">
+<section class="py-16 px-8 bg-white dark:bg-gray-800">
+	<div class="mx-auto max-w-7xl">
+		
 	<h2 class="text-center text-3xl font-bold">How does it work?</h2>
 	
 	<div class="flex flex-row w-full my-8 flex-wrap lg:flex-nowrap justify-center">
@@ -237,6 +239,7 @@
 			</p>
 		</div>
 	</div>
+</div>
 	
 </section>
 
