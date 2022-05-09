@@ -243,8 +243,9 @@ return [
         'getting-started',
         'directory-structure',
         'console-commands',
+        'managing-assets',
         'customization',
-        'updating-hyde'
+        'updating-hyde',
     ],
 
     /*
