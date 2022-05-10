@@ -238,14 +238,7 @@ return [
     */
 
     'documentationPageOrder' => [
-        'readme',
-        'installation',
-        'getting-started',
-        'directory-structure',
-        'console-commands',
-        'managing-assets',
-        'customization',
-        'updating-hyde',
+        //
     ],
 
     /*
@@ -262,7 +255,7 @@ return [
     'documentationPageTableOfContents' => [
         'enabled' => true,
         'minHeadingLevel' => 2,
-        'maxHeadingLevel' => 4,
+        'maxHeadingLevel' => 3,
         'smoothPageScrolling' => true,
     ],
 
