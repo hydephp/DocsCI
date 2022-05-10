@@ -14,7 +14,7 @@ Add images to your posts by setting the `image` in the front matter. If you pass
 ### Add a Local image
 ```markdown
 ---
-image: image.jpg # Will load the following `__site/_media/image.jpg` 
+image: image.jpg # Will load the following `_site/_media/image.jpg` 
 ---
 ```
 
