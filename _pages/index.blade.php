@@ -24,21 +24,24 @@
 	Components based on https://devdojo.com/tails/app
 -->
 <header class="w-full py-32 lg:pt-44 flex flex-col text-center items-center justify-center min-h-screen -mt-16">
-	<h1 class="text-6xl md:text-7xl text-gray-800 font-black leading-7 md:leading-10 dark:text-white">
+	<h1 class="text-5xl sm:text-6xl md:text-7xl text-gray-800 font-black leading-7 md:leading-10 dark:text-white">
 		HydePHP
 	</h1>
-	<div class="max-w-3xl p-8 mt-4">
-		<strong role="doc-subtitle" class="text-4xl leading-8">
+	<div class="max-w-full sm:max-w-3xl p-8 mt-4">
+		<strong role="doc-subtitle" class="text-3xl sm:text-4xl leading-8">
 			A Laravel-powered 
 			<strong>Static App Generator</strong>
 		</strong>
-		<p class="text-2xl mt-2">
+		<p class="text-xl sm:text-2xl mt-4 sm:mt-2">
 			that allows you to create blogs, documentation sites, and more. 
 		</p>
 		<!-- Syntax highlighted by torchlight.dev -->
-		<pre style="margin-top: 2.5rem; margin-bottom: 0.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">composer</span> <span style="color: #C3E88D;">create-project hyde/hyde</span> <span style="color: #CCCCCC">--stability=dev</span></code></pre>
+		<pre class="hidden sm:block" style="margin-top: 2.5rem; margin-bottom: 0.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">composer</span> <span style="color: #C3E88D;">create-project hyde/hyde</span> <span style="color: #CCCCCC">--stability=dev</span></code></pre>
+		<div class="sm:hidden">
+		<pre class="max-w-full" style="margin-top: 2.5rem; margin-bottom: 0.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight flex flex-wrap justify-center" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B; margin: 0 4px;">composer</span> <span style="color: #C3E88D; margin: 0 4px;">create-project hyde/hyde</span> <span style="color: #CCCCCC" margin: 0 4px;>--stability=dev</span></code></pre>
 	</div>
-	<div class="my-4">  {{-- Buttons based on https://tailwindcomponents.com/component/tailwind-css-buttons --}}
+	</div>
+	<div class="sm:my-4 max-w-full flex flex-wrap justify-center">  {{-- Buttons based on https://tailwindcomponents.com/component/tailwind-css-buttons --}}
 		<a href="docs/master/index.html" class="transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-900 focus:ring-opacity-75 focus:shadow-outline bg-purple-700 hover:bg-purple-900 text-white font-normal py-2 px-4 m-2 rounded">Documentation</a>
 		<a href="#features" class="transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-indigo-900 focus:ring-opacity-75 focus:shadow-outline bg-indigo-700 hover:bg-indigo-900 text-white font-normal py-2 px-4 m-2 rounded">Explore the Features</a>
 	</div>
