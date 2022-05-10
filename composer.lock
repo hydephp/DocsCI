@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b553e3faa46a3a259c7f0fb5d8d06b3f",
+    "content-hash": "1359bfb07a9608c197e22d626e9e0646",
     "packages": [
         {
             "name": "brick/math",
@@ -875,16 +875,16 @@
         },
         {
             "name": "hyde/framework",
-            "version": "v0.23.2-beta",
+            "version": "v0.23.3-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hydephp/framework.git",
-                "reference": "10a393b5a45444ee2ad79a2a3f8024b3d0cc3e0e"
+                "reference": "dcdac993943a09d750ae4162845ace9f77e81f6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hydephp/framework/zipball/10a393b5a45444ee2ad79a2a3f8024b3d0cc3e0e",
-                "reference": "10a393b5a45444ee2ad79a2a3f8024b3d0cc3e0e",
+                "url": "https://api.github.com/repos/hydephp/framework/zipball/dcdac993943a09d750ae4162845ace9f77e81f6e",
+                "reference": "dcdac993943a09d750ae4162845ace9f77e81f6e",
                 "shasum": ""
             },
             "require": {
@@ -921,9 +921,9 @@
             "description": "The HydePHP Framework",
             "support": {
                 "issues": "https://github.com/hydephp/framework/issues",
-                "source": "https://github.com/hydephp/framework/tree/v0.23.2-beta"
+                "source": "https://github.com/hydephp/framework/tree/v0.23.3-beta"
             },
-            "time": "2022-05-07T12:14:55+00:00"
+            "time": "2022-05-10T19:56:58+00:00"
         },
         {
             "name": "illuminate/bus",
