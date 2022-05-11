@@ -4,6 +4,13 @@ description: This first part in a series of the architecture of HydePHP will giv
 category: deepdives
 author: Caen
 date: 2022-05-11 20:35
+image:
+  path: "/media/tech-5090539_1920.jpg"
+  description: "Background image of futuristic circles"
+  license: "Pixabay License"
+  licenseUrl: https://pixabay.com/service/license/
+  credit: https://pixabay.com/photos/tech-circle-technology-abstract-5090539/
+  author: "Reto Scheiwiller"
 ---
 
 ## Introduction to the internal architecture of HydePHP.
