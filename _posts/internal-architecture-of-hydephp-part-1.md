@@ -1,5 +1,5 @@
 ---
-title: Internal Architecture of HydePHP - Part 1
+title: "Internal Architecture of HydePHP - Part 1: Introduction"
 description: This first part in a series of the architecture of HydePHP will give an overview of design patterns and concepts in the Hyde Framework Core.
 category: deepdives
 author: Caen
@@ -188,7 +188,7 @@ If you spot any, please let me know so I can learn!
 
 ## Next Up
 
-Make sure to check out the **Deep Dive into Services** post (launching tomorrow).
+Make sure to check out the **[Deep Dive into Services](internal-architecture-of-hydephp-part-2.html)** post.
 Also, make sure to check out the **How Hyde knows what to do with your Markdown** post (launching day after tomorrow).
 
 <style>
