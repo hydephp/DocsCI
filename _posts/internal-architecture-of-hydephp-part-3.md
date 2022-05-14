@@ -3,7 +3,7 @@ title: "Internal Architecture of HydePHP - Part 3: Page Models"
 description: In this third instalment we take a look at how Hyde internally parses Markdown files and compiles them into HTML.
 category: deepdives
 author: Caen
-date: 2022-05-12 19:54
+date: 2022-05-13 20:00
 image:
   path: "/media/tech-5090539_1920.jpg"
   description: "Background image of futuristic circles"
