@@ -129,7 +129,7 @@ All of these extend the `MarkdownDocument` base Model which provides common data
 
 The page models are an integral of the static site building process.
 
-To learn more about how the page models are used, take a look at the **How Hyde knows what to do with your Markdown** post (launching day after tomorrow).
+To learn more about how the page models are used, take a look at the **[How Hyde knows what to do with your Markdown](internal-architecture-of-hydephp-part-3.html)** post.
 
 
 ## Contracts & Concerns
@@ -189,7 +189,7 @@ If you spot any, please let me know so I can learn!
 ## Next Up
 
 Make sure to check out the **[Deep Dive into Services](internal-architecture-of-hydephp-part-2.html)** post.
-Also, make sure to check out the **How Hyde knows what to do with your Markdown** post (launching day after tomorrow).
+Also, make sure to check out the **[How Hyde knows what to do with your Markdown](internal-architecture-of-hydephp-part-3.html)** post.
 
 <style>
 	.list-compact p {
