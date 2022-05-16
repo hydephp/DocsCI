@@ -40,7 +40,7 @@
 	<div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 		<!-- Image -->
 		<div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-			<img src="../media/productivity.png" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+			<img alt="Illustration of a person in a spacesuit surrounded by tiny planets" src="../media/productivity.png" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
 		</div>
 		<!-- Content -->
 		<div class="box-border order-first w-full text-black dark:text-white border-solid md:w-1/2 md:pl-10 md:order-none">
@@ -48,7 +48,7 @@
 				Boost Productivity
 			</h2>
 			<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-100 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-				Hyde is incredibly fast to get started with. 
+				Hyde is incredibly fast to get started with.
 				<mark>Here's&nbsp;why.</mark>
 			</p>
 			<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
@@ -68,7 +68,7 @@
 					<span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 dark:bg-yellow-500 rounded-full">
 						<span class="text-sm font-bold">✓</span>
 					</span>
-					Content-first workflow using your choice of tools. 
+					Content-first workflow using your choice of tools.
 				</li>
 			</ul>
 		</div>
@@ -107,7 +107,7 @@
 		<!-- End  Content -->
 		<!-- Image -->
 		<div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-			<img src="../media/settings.png" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
+			<img alt="Illustration of a robot pointing to a browser page with two large gears" src="../media/settings.png" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
 		</div>
 	</div>
 </section>
@@ -150,7 +150,7 @@
 	</div>
 </div>
 <div class="w-full px-3 mb-12 lg:w-2/5 order-0 lg:order-1 lg:mb-0">
-	<img class="mx-auto sm:max-w-sm lg:max-w-full" src="../media/feature-graphic.png" alt="feature image">
+	<img class="mx-auto sm:max-w-sm lg:max-w-full" src="../media/feature-graphic.png" alt="Illustration of a person waving">
 </div>
 </div>
 </div>
@@ -158,9 +158,9 @@
 
 <section class="py-16 px-8 bg-gray-100 dark:bg-gray-800">
 	<div class="mx-auto max-w-7xl">
-		
+
 	<h2 class="text-center text-3xl font-bold">How does it work?</h2>
-	
+
 	<div class="flex flex-row w-full my-8 flex-wrap lg:flex-nowrap justify-center">
 		<div class="min-w-[280px] lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-white dark:bg-gray-700 prose dark:prose-invert">
 			<h3>
@@ -181,7 +181,7 @@
 				Creating content is easy with Markdown
 			</h4>
 			<p>
-				Put your Markdown or Blade content in the source directories. The directory you use will determine the Blade layout and output path that will be used. 
+				Put your Markdown or Blade content in the source directories. The directory you use will determine the Blade layout and output path that will be used.
 			</p>
 		</div>
 		<div class="min-w-[280px] lg:w-1/3 m-4 p-4 rounded-lg shadow-lg bg-white dark:bg-gray-700 prose dark:prose-invert">
@@ -197,7 +197,7 @@
 		</div>
 	</div>
 </div>
-	
+
 </section>
 
 <section class="pb-20 pt-8 bg-gray-100 dark:bg-gray-800">
