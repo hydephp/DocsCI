@@ -63,6 +63,9 @@ jobs:
 
     - name: Create .nojekyll
       run: touch _site/.nojekyll
+      
+    - name: Create CNAME
+      run: echo "hydephp.com" > _site/CNAME
 
     - name: Create docs redirect
       run: echo '<meta http-equiv="refresh" content="0;url=/docs/master/index.html" />' > _site/docs/index.html
