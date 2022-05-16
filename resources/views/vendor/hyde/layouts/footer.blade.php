@@ -2,11 +2,6 @@
 	<div class="prose dark:prose-invert text-center mx-auto prose-p:mb-2">
 		{!! Hyde\Framework\Actions\ConvertsFooterMarkdown::execute() !!}
 		@stack('footer')
-		<div>
-			<small>
-				This site uses <a href="https://openevents.desilva.se/">OpenEvents</a> analytics for basic anonymous statistics. <a href="privacy">Learn more here</a>.
-			</small>
-		</div>
 	</div>
 	<a href="#app" aria-label="Go to top of page" class="float-right">
 		<button title="Scroll to top">
@@ -16,5 +11,3 @@
 		</button>
 	</a>
 </footer>
-
-<img width="1" height="1" src="https://openevents.desilva.se/api/projects/bode/pixel?event=pageview&data={{ urlencode(json_encode(['page' => $currentPage])) }}" alt="" role="none">
