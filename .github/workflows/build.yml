@@ -29,7 +29,7 @@ jobs:
           ${{ runner.os }}-php-
 
     - name: Create dotenv
-      run: echo "SITE_URL=https://hydephp.github.io/" > .env
+      run: echo "SITE_URL=https://hydephp.com/" > .env
     
     - name: Add Torchlight token
       run: echo "TORCHLIGHT_TOKEN=${{ secrets.TORCHLIGHT_TOKEN }}" >> .env
