@@ -19,6 +19,9 @@
 	#main-navigation {
 		z-index: 10;
 	}
+	.dark .dark\:bg-gray-800 {
+		/* background-color: #141f32; */
+	}
 </style>
 @push('meta')
 <meta name="author" content="Caen De Silva">
