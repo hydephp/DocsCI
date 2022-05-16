@@ -20,6 +20,12 @@
 		z-index: 10;
 	}
 </style>
+@push('meta')
+<meta name="author" content="Caen De Silva">
+<meta name="description" content="HydePHP - Elegant and Powerful Static App Builder">
+<meta name="keywords" content="HydePHP, Static App Builder, Static Sites, Blogs, Documentation">
+@endpush
+
 <!--
 	Components based on https://devdojo.com/tails/app
 -->

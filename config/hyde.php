@@ -83,9 +83,9 @@ return [
     */
 
     'meta' => [
-        'author' => 'Caen De Silva',
-        'description' => 'HydePHP - Elegant and Powerful Static App Builder',
-        'keywords' => 'HydePHP, Static App Builder, Static Sites, Blogs, Documentation',
+        // 'author' => 'Caen De Silva',
+        // 'description' => 'HydePHP - Elegant and Powerful Static App Builder',
+        // 'keywords' => 'HydePHP, Static App Builder, Static Sites, Blogs, Documentation',
         'generator' => 'HydePHP '.Hyde\Framework\Hyde::version(),
     ],
 
