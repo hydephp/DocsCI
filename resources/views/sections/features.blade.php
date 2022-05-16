@@ -29,7 +29,7 @@
 		</div>
 		<div class="w-full md:w-1/2">
 			<div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-				<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/pJw_auBMSMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<video class="w-full" src="https://cdn.desilva.se/hydephp/media/HydePHPDemoSlides.mp4" poster="https://cdn.desilva.se/hydephp/media/HydePHPDemoSlidesPoster.jpg" controls></video>
 			</div>
 		</div>
 	</div>
