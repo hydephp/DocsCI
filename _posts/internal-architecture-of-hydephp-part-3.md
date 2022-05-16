@@ -19,7 +19,7 @@ image:
 
 Welcome to the third instalment in my series on the internal architecture of HydePHP. 
 
-> If you haven't read part one already, you should do that first. Here is a quick link [Internal Architecture of HydePHP - Part 1: Introduction](https://hydephp.github.io/posts/internal-architecture-of-hydephp-part-1).
+> If you haven't read part one already, you should do that first. Here is a quick link [Internal Architecture of HydePHP - Part 1: Introduction](https://hydephp.com/posts/internal-architecture-of-hydephp-part-1).
 
 
 ## How page models are used to generate static pages

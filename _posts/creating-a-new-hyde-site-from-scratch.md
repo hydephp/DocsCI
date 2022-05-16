@@ -54,7 +54,7 @@ This will compile the default welcome page stored in `_pages/index.blade.php`.
 The static site files are stored in `_site/` which now contains an index.html file.
 Let's open it up in our browser and take a look!
 
-![Screenshot of welcome page](https://hydephp.github.io/media/screely-1648242017926-min.png)
+![Screenshot of welcome page](https://hydephp.com/media/screely-1648242017926-min.png)
 
 Amazing! We probably don't want to keep this welcome screen though. Let's create a blog!
 
@@ -81,7 +81,7 @@ This will save the 'posts' template to the `_pages/index.blade.php` file.
 We will be asked if we want to rebuild the site,
 let's hit 'yes' and take a look at the new compiled index.html file.
 
-![Screenshot of the post feed page](https://hydephp.github.io/media/screely-1648242979072-min.png)
+![Screenshot of the post feed page](https://hydephp.com/media/screely-1648242979072-min.png)
 
 Cool! Though it looks a bit empty. Let's create a post!
 
@@ -104,7 +104,7 @@ It will then create a Markdown file containing our input as front matter.
 php hyde make:post
 ```
 
-![Terminal output screenshot](https://hydephp.github.io/media/Screenshot%202022-03-25%20222236-min.png)
+![Terminal output screenshot](https://hydephp.com/media/Screenshot%202022-03-25%20222236-min.png)
 
 Let's take a look at the file that was created for us! As you can see it is stored in the _posts directory.
 A slug was automatically created from the title and the date was automatically parsed from the current time.
@@ -130,7 +130,7 @@ php hyde build
 As you can see, the excerpt automatically shows up in the feed on the homepage!
 I also added some extra text in the Markdown section to populate the post.
 
-![Screenshot of generated homepage and blog post](https://hydephp.github.io/media/mockup-blogpostexample-min.png)
+![Screenshot of generated homepage and blog post](https://hydephp.com/media/mockup-blogpostexample-min.png)
 
 ## Creating a Markdown page
 
@@ -160,7 +160,7 @@ title: About Us
 
 I'll add some extra content for demo purposes and then rebuild the site.
 
-![Screenshot of generated Markdown page](https://hydephp.github.io/media/screely-1648247108115-min.png)
+![Screenshot of generated Markdown page](https://hydephp.com/media/screely-1648247108115-min.png)
 
 Markdown pages are great for rapidly building simple pages, but they can be a bit limiting.
 Since Hyde is based on Laravel, we can use Blade views to create more complex pages.
@@ -212,7 +212,7 @@ Documentation is important! As the saying goes,  "if a feature is not documented
 You heard me! Writing documentation is fun again! Best of all? It is dead simple.
 
 The Hyde Docgen module is based on Laradocgen and automagically turns Markdown pages into documentation pages.
-It is also what powers the [Hyde documentation site](https://hydephp.github.io/docs)!
+It is also what powers the [Hyde documentation site](https://hydephp.com/docs)!
 
 Creating documentation pages is a piece of cake.
 We start by creating a file following the format of kebab-case-version-of-the-title.md in the _docs directory.
@@ -248,7 +248,7 @@ the header in the sidebar will link to it.
 Our documentation is cool and all that, but I want to add lots of code examples,
 and they look so boring without syntax highlighting...
 
-![Screenshot of the documentation page with no syntax highlighting](https://hydephp.github.io/media/screely-1648303538589-min.png)
+![Screenshot of the documentation page with no syntax highlighting](https://hydephp.com/media/screely-1648303538589-min.png)
 
 **Let's fix this.** Hyde has built-in support for one of my favourite packages:
 [Torchlight](https://torchlight.dev/).
@@ -282,13 +282,13 @@ automatically enable the Torchlight CommonMark extension.
 Now when we run the build command you will notice it takes a bit longer,
 especially the first time, but no sweat because we got ourselves some beautiful code snippets!
 
-![Screenshot of the documentation page with syntax highlighting](https://hydephp.github.io/media/screely-1648307127051-min.png)
+![Screenshot of the documentation page with syntax highlighting](https://hydephp.com/media/screely-1648307127051-min.png)
 
 ## Conclusion
 I think that brings this tutorial to a close.
 Send me a Tweet if you have any questions or suggestions! I'm [@StressedDev](https://twitter.com/StressedDev).
 
-- The homepage for Hyde is [hydephp.github.io](https://hydephp.github.io/).
-- The documentation is hosted at [hydephp.github.io/docs](https://hydephp.github.io/docs/).
+- The homepage for Hyde is [hydephp.github.io](https://hydephp.com/).
+- The documentation is hosted at [hydephp.github.io/docs](https://hydephp.com/docs/).
 - Find the source code on [GitHub](https://github.com/hydephp/hyde).
 

@@ -20,7 +20,7 @@ image:
 
 This article is the second installation in my series on the internal architecture of HydePHP.
 If you haven't read part one already, you should do that first. Here is a quick link
-[Internal Architecture of HydePHP - Part 1: Introduction](https://hydephp.github.io/posts/internal-architecture-of-hydephp-part-1).
+[Internal Architecture of HydePHP - Part 1: Introduction](https://hydephp.com/posts/internal-architecture-of-hydephp-part-1).
 
 ## Taking a look at a Service
 

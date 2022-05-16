@@ -1,7 +1,7 @@
 # Hyde Documentation CI
 [![Build the site](https://github.com/hydephp/DocsCI/actions/workflows/build.yml/badge.svg)](https://github.com/hydephp/DocsCI/actions/workflows/build.yml)
 
-This repo is part of the CI pipeline for the https://hydephp.github.io/ website and replaces the repo previosly found in https://github.com/hydephp/docs/.
+This repo is part of the CI pipeline for the https://hydephp.com/ website and replaces the repo previosly found in https://github.com/hydephp/docs/.
 
 ## Contributing
 
