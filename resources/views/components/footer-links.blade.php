@@ -1,4 +1,4 @@
-<ul class="not-prose whitespace-nowrap justify-center flex-wrap flex items-center  my-2 mx-1 text-sm text-gray-500 dark:text-gray-300  sm:mr-4 sm:pr-4 list-none">
+<ul class="not-prose whitespace-nowrap justify-center flex-wrap flex items-center  mt-2 mx-1 text-sm text-gray-500 dark:text-gray-300  sm:mr-4 sm:pr-4 list-none">
 	<li class="my-2 mx-1">
 		<a href="{{ Hyde::relativeLink(Hyde::docsIndexPath(), $currentPage) }}" class="text-gray-500 dark:text-gray-300   dark:hover:text-gray-100   hover:text-gray-900 flex items-center mx-2">
 			<img alt="Booklet Icon" width="16px" height="16px" class="inline mr-1.5 dark:invert" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAACXBIWXMAAAsSAAALEgHS3X78AAAAYFBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzK7FeAAAAH3RSTlMAJ+cRAX/5Av3WhHM03wYrHheZevFcz8YsRA2xbUaHWZ44hQAAAIpJREFUGNN1zkkOg0AQQ9HfTZFibmbI6PvfMpugoEjxynobGzB3A4yux8AcAAPGig4ga5oBjEk5QLjHeY7rQi7Vt7GjkiSppZXqTIFcl6IoVFJ+QfoH0w/E1J8hxkQ6w9hDOFYuWrkN+9AoHD/iVEqKSjy2pdmfVdu+rulab4FPsu5omLu7g7u7G2+HTAzL/Cw9sAAAAABJRU5ErkJggg==">
