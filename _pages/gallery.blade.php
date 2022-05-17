@@ -49,7 +49,7 @@
 	<div class="clear-both"></div>
 </section>
 @include('components.gallery.section-pages')
-<section class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen">
+<section class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen bg-slate-100 dark:bg-slate-800">
 	<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 dark:text-gray-100 px-3 my-3">
 		Beautiful Documentation Pages
 	</h1>
@@ -69,7 +69,7 @@
 		<a href="https://github.com/hydephp/examples/blob/24218d98cf86aea217729337ad80801d6930f5a0/examples/markdown-documentation/installation.md">View source on GitHub</a>
 	</p>
 </section>
-<section class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen bg-slate-100 dark:bg-slate-800">
+<section class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen">
 	<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 dark:text-gray-100 px-3 my-3">
 		Fully Mobile Friendly, of course.
 	</h1>
@@ -94,7 +94,7 @@
 		</div>
 	</div>
 </section>
-<section class="mx-auto items-center py-16 px-4 lg:min-h-screen ">
+<section class="mx-auto items-center py-16 px-4 lg:min-h-screen  bg-slate-100 dark:bg-slate-800">
 	<header class="text-center">
 		<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 dark:text-gray-100 px-3 my-3 text-center ">
 			Clean Semantic HTML
