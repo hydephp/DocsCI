@@ -37,3 +37,23 @@ blockquote.danger {
 	background-color: #172133;
 	color: #ffffff;
 }
+
+
+/* Hyde UI Kit */
+
+
+.btn {
+	@apply px-6 py-2 mx-2 my-1 rounded;
+}
+.btn-lg {
+	@apply px-10 py-3 mx-3 my-1 rounded;
+}
+.btn-default {
+	@apply text-white rounded-md bg-indigo-600 hover:bg-indigo-700;
+}
+.btn-primary {
+	@apply text-white rounded-md bg-blue-500 hover:bg-blue-600;
+}
+.btn-secondary {
+	@apply text-white rounded-md bg-slate-500 hover:bg-slate-600;
+}
