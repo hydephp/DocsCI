@@ -10,7 +10,7 @@
 		background: linear-gradient(-100deg, #fece2fa8, #fddf47a4 95%, #fece2f8a);
 	}
 	/* Gradients by https://uigradients.com/ */
-	.dark #app {
+	.dark .app-gradient {
 		/* Royal */
 		background: #141E30; /* fallback for old browsers */
 		background: -webkit-linear-gradient(to left bottom, #243B55, #141E30); /* Chrome 10-25, Safari 5.1-6 */
@@ -18,9 +18,6 @@
 	}
 	#main-navigation {
 		z-index: 10;
-	}
-	.dark .dark\:bg-gray-800 {
-		/* background-color: #141f32; */
 	}
 </style>
 @push('meta')
@@ -32,7 +29,7 @@
 <!--
 	Components based on https://devdojo.com/tails/app
 -->
-<header id="content" class="w-full py-32 lg:pt-44 flex flex-col text-center items-center justify-center min-h-screen -mt-16">
+<header id="content" class="app-gradient w-full py-32 lg:pt-44 flex flex-col text-center items-center justify-center min-h-screen -mt-16">
 	<h1 class="text-5xl sm:text-6xl md:text-7xl text-gray-800 font-black leading-7 md:leading-10 dark:text-white">
 		HydePHP
 	</h1>
