@@ -48,8 +48,8 @@
 				Boost Productivity
 			</h2>
 			<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-100 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-				Hyde is incredibly fast to get started with.
-				<mark>Here's&nbsp;why.</mark>
+				<mark>Hyde is incredibly fast to get started with.</mark>
+				<b>Here's&nbsp;why.</b>
 			</p>
 			<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
 				<li class="box-border relative py-1 pl-0 text-left text-gray-600 dark:text-gray-300 border-solid">

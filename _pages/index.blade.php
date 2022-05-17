@@ -7,7 +7,7 @@
 		padding: 0.125rem 0.5rem;
 	}
 	.dark mark {
-		background: linear-gradient(-100deg, #fece2fa8, #fddf47a4 95%, #fece2f8a);
+		background: linear-gradient(-100deg, #fece2fbe, #fddf47a4 95%, #fece2fbd);
 	}
 	/* Gradients by https://uigradients.com/ */
 	.dark .app-gradient {
