@@ -16,7 +16,7 @@ While the main purpose of this repo is to generate the static HTML Documentation
 
 ## Credits
 
--   [Caen De Silva](https://github.com/caendesilva)
+-   [Caen De Silva](https://github.com/caendesilva), feel free to buy me a coffee! https://www.buymeacoffee.com/caen
 -   [All Contributors](../../contributors)
 
 ## License

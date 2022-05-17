@@ -8,7 +8,7 @@
   "dependencies": {},
   "name": "hyde",
   "description": "Elegant and Powerful Static App Builder",
-  "version": "0.24.0",
+  "version": "0.25.0",
   "main": "hyde",
   "directories": {
     "test": "tests"
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/hydephp/hyde/issues"
   },
-  "homepage": "https://hydephp.github.io",
+  "homepage": "https://hydephp.com",
   "devDependencies": {
     "autoprefixer": "^10.4.5",
     "laravel-mix": "^6.0.43",
