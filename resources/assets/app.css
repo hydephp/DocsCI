@@ -49,11 +49,11 @@ blockquote.danger {
 	@apply px-10 py-3 mx-3 my-1 rounded;
 }
 .btn-default {
-	@apply text-white rounded-md bg-indigo-600 hover:bg-indigo-700;
+	@apply text-white rounded-md bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-300;
 }
 .btn-primary {
-	@apply text-white rounded-md bg-blue-500 hover:bg-blue-600;
+	@apply text-white rounded-md bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300;
 }
 .btn-secondary {
-	@apply text-white rounded-md bg-slate-500 hover:bg-slate-600;
+	@apply text-white rounded-md bg-slate-500 hover:bg-slate-600 focus:outline-none focus:ring focus:ring-slate-300;
 }
