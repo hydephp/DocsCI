@@ -58,7 +58,7 @@ jobs:
 
 
     - name: Run the Hyde Builder
-      run: php hyde build --pretty
+      run: php hyde build --pretty-urls --run-prettier
 
 
     - name: Create .nojekyll
