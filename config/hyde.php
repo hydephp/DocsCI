@@ -195,6 +195,7 @@ return [
         'dashboard',
         'posts',
         'privacy',
+        'legal',
     ],
 
     /*
