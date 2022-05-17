@@ -32,6 +32,7 @@ return [
         \League\CommonMark\Extension\GithubFlavoredMarkdownExtension::class,
         \League\CommonMark\Extension\Attributes\AttributesExtension::class,
         \League\CommonMark\Extension\DisallowedRawHtml\DisallowedRawHtmlExtension::class,
+        \League\CommonMark\Extension\Footnote\FootnoteExtension::class,
     ],
 
     /*
