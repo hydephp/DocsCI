@@ -11,18 +11,25 @@
 	#pages-section-wrapper.end {
 		background-color: pink;
 	}
+
+	.dark #pages-section-wrapper.start {
+		background-color: #1a2336;
+	}
+	.dark #pages-section-wrapper.end {
+		background-color: #0d1525;
+	}
 </style>
 
 <section id="pages-section-wrapper" class="mx-auto items-center text-center py-16 px-4 lg:min-h-screen bg-slate-100 start">
 	<div  id="pages-section">
 		
 	<div id="slide1" class="slide mx-auto items-center lg:min-h-screen">
-		<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 px-3 my-3">
+		<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 dark:text-white px-3 my-3">
 			<div id="pagesSectionHeader">
 				Create Markdown Driven Pages
 			</div>
 		</h1>
-		<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 px-3">
+		<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 dark:text-slate-200 px-3">
 			With ease. Front Matter included.
 		</strong>
 		<div class="p-8  max-w-5xl mx-auto" data-aos="fade-up">
@@ -38,12 +45,12 @@
 		</p>
 	</div>
 	<div id="slide2" class="slide mx-auto items-center lg:min-h-screen">
-		<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 px-3 my-3">
+		<h1 class="text-2xl md:3-xl lg:text-5xl font-black text-slate-700 dark:text-white px-3 my-3">
 			<div id="pagesSectionHeader">
 				Or use Laravel's Blade
 			</div>
 		</h1>
-		<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 px-3">
+		<strong class="text-xl md:text-2xl lg:text-3xl text-slate-800 dark:text-slate-200 px-3">
 			For those times you need full control.
 		</strong>
 		<div class="p-8  max-w-5xl mx-auto">
