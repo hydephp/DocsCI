@@ -59,7 +59,7 @@
 
 <style> html, body { scroll-behavior: smooth; } </style>
 @push('footer')
-<div class="pb-2">
+<div class="mt-1 pt-1 border-t border-slate-200 dark:border-slate-700">
 	<small>
 		Landing page attributions:
 		Components based on https://devdojo.com/tails/app.

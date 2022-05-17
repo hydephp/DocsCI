@@ -1,6 +1,7 @@
 <footer aria-label="Page footer" class="flex py-4 px-6 w-full text-center mt-auto bg-offset">
 	<div class="prose dark:prose-invert text-center mx-auto prose-p:mb-2 dark:prose-a:text-indigo-400">
 		{!! Hyde\Framework\Actions\ConvertsFooterMarkdown::execute() !!}
+		@include('components.footer-links')
 		@stack('footer')
 	</div>
 	<a href="#app" aria-label="Go to top of page" class="float-right">
