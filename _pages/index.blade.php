@@ -48,8 +48,8 @@
 	</div>
 	</div>
 	<div class="sm:my-4 max-w-full flex flex-wrap justify-center">  {{-- Buttons based on https://tailwindcomponents.com/component/tailwind-css-buttons --}}
-		<a href="docs/master/index.html" class="transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-900 dark:focus:ring-purple-600 focus:ring-opacity-75 focus:shadow-outline bg-purple-700 hover:bg-purple-900 text-white font-normal py-2 px-4 m-2 rounded">Documentation</a>
-		<a href="#features" class="transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-indigo-900 dark:focus:ring-indigo-500 focus:ring-opacity-75 focus:shadow-outline bg-indigo-700 hover:bg-indigo-900 text-white font-normal py-2 px-4 m-2 rounded">Explore the Features</a>
+		<a href="docs/master/index.html" class="btn btn-primary">Documentation</a>
+		<a href="#features" class="btn btn-default">Explore the Features</a>
 	</div>
 </header>
 
