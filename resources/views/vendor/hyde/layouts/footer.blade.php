@@ -1,4 +1,4 @@
-<footer aria-label="Page footer" class="flex py-4 px-6 w-full text-center mt-auto bg-slate-100 dark:bg-gray-900">
+<footer aria-label="Page footer" class="flex py-4 px-6 w-full text-center mt-auto bg-offset">
 	<div class="prose dark:prose-invert text-center mx-auto prose-p:mb-2 dark:prose-a:text-indigo-400">
 		{!! Hyde\Framework\Actions\ConvertsFooterMarkdown::execute() !!}
 		@stack('footer')

@@ -1,5 +1,5 @@
 <!-- Section 1 -->
-<section id="features" class="px-2 py-32 bg-gray-100 dark:bg-gray-900 md:px-0">
+<section id="features" class="px-2 py-32 bg-offset md:px-0">
 	<div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
 		<div class="flex flex-wrap items-center sm:-mx-3">
 			<div class="w-full md:w-1/2 md:px-3">
@@ -36,7 +36,7 @@
 </div>
 </section>
 <!-- Section 2 -->
-<section class="w-full bg-gray-100 dark:bg-gray-900 pt-7 pb-7 md:pt-20 md:pb-24">
+<section class="w-full bg-offset pt-7 pb-7 md:pt-20 md:pb-24">
 	<div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 		<!-- Image -->
 		<div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
@@ -111,7 +111,7 @@
 		</div>
 	</div>
 </section>
-<section id="about" class="py-20 bg-gray-100 dark:bg-gray-900">
+<section id="about" class="py-20 bg-offset">
 	<div class="container items-center max-w-6xl px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
 		<div class="flex flex-wrap items-center -mx-3 justify-center">
 			<div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
@@ -156,7 +156,7 @@
 </div>
 </section>
 
-<section class="py-16 px-8 bg-gray-100 dark:bg-gray-900">
+<section class="py-16 px-8 bg-offset">
 	<div class="mx-auto max-w-7xl">
 
 	<h2 class="text-center text-3xl font-bold">How does it work?</h2>
@@ -200,7 +200,7 @@
 
 </section>
 
-<section class="pb-20 pt-8 bg-gray-100 dark:bg-gray-900">
+<section class="pb-20 pt-8 bg-offset">
 	<div class="container items-center max-w-6xl px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
 		<div class="flex flex-wrap items-center -mx-3 justify-center">
 			<div class=" w-full px-3 ">

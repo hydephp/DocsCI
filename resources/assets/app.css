@@ -17,3 +17,23 @@ blockquote.warning {
 blockquote.danger {
 	border-color: red;
 }
+
+.bg-standard {
+	background: #ffffff;
+	color: #000000;
+}
+
+.bg-offset {
+	background-color: #f1f5f9;
+	color: #000000;
+}
+
+.dark .bg-standard {
+	background-color: #1e293b;
+	color: #ffffff;
+}
+
+.dark .bg-offset {
+	background-color: #172133;
+	color: #ffffff;
+}
