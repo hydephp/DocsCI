@@ -56,6 +56,7 @@ class MarkdownDocument extends AbstractPage
     public string $body;
     public string $title;
     public string $slug;
+}
 ```
 
 Here the `$fileExtension` is set for all Markdown based pages.
