@@ -6,7 +6,7 @@ author: Caen
 date: 2022-04-17 12:59
 ---
 
-## What is hyde?
+## What is Hyde?
 
 HydePHP is a content-first Laravel-powered Static Site Builder that allows you to create static HTML pages, blog posts, and documentation sites using Markdown, optionally with YAML Front Matter. 
 
@@ -19,7 +19,7 @@ Just write your content in Markdown, and Hyde will automatically generate the si
 
 For example, storing a file in the `_posts` directory will render the Markdown HTML in a Blog Post template with strong support for Front Matter. Files in the `_docs` directory use the Documentation Page layout with an automatic sidebar. Markdown files in the `_pages` directory are rendered into a simple blank page putting the focus on your content. When using Blade pages you can choose which layout to use, or create your own!
 
-## Write less code, let hyde do the work
+## Write less code, let Hyde do the work
 With Hyde's auto-discovery and automatic content generation, there is no more messing with routes, links, etc.
 
 Hyde automatically creates and populates navigation menus and documentation sidebars.
