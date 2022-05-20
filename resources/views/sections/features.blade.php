@@ -35,7 +35,7 @@
 	<div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 		<!-- Image -->
 		<div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-			<img alt="Illustration of a person in a spacesuit surrounded by tiny planets" src="../media/productivity.png" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+			<img width="100%" height="100%" title="Illustration by Semenin Egor from Ouch! via icons8.com" alt="Illustration of a person in a spacesuit surrounded by tiny planets" src="media/productivity.png" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
 		</div>
 		<!-- Content -->
 		<div class="box-border order-first w-full text-black dark:text-white border-solid md:w-1/2 md:pl-10 md:order-none">
@@ -102,7 +102,7 @@
 		<!-- End  Content -->
 		<!-- Image -->
 		<div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-			<img alt="Illustration of a robot pointing to a browser page with two large gears" src="../media/settings.png" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
+			<img width="100%" height="100%" title="Illustration by Semenin Egor from Ouch! via icons8.com" alt="Illustration of a robot pointing to a browser page with two large gears" src="media/settings.png" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
 		</div>
 	</div>
 </section>
@@ -145,7 +145,7 @@
 	</div>
 </div>
 <div class="w-full px-3 mb-12 lg:w-2/5 order-0 lg:order-1 lg:mb-0">
-	<img class="mx-auto sm:max-w-sm lg:max-w-full" src="../media/feature-graphic.png" alt="Illustration of a person waving">
+	<img width="100%" height="100%" title="Illustration by Semenin Egor from Ouch! via icons8.com" class="mx-auto sm:max-w-sm lg:max-w-full" src="media/feature-graphic.png" alt="Illustration of a person waving">
 </div>
 </div>
 </div>
