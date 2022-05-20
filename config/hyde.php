@@ -96,6 +96,11 @@ return [
         Meta::name('twitter:creator', '@hyde_php'),
         Meta::name('generator', 'HydePHP '.Hyde\Framework\Hyde::version()),
         Meta::property('site_name', $siteName),
+        Meta::property('url', 'https://hydephp.com/'),
+        Meta::property('title', 'HydePHP'),
+        Meta::property('description', 'HydePHP - Elegant and Powerful Static App Builder'),
+        Meta::property('image', 'https://opengraph.githubassets.com/1/hydephp/hyde'),
+        Meta::property('image:alt', 'GitHub OpenGraph Image'),
     ],
 
     /*
