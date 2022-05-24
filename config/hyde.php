@@ -96,7 +96,7 @@ return [
         Meta::name('generator', 'HydePHP '.Hyde\Framework\Hyde::version()),
         Meta::name('twitter:card', 'summary'),
         Meta::name('twitter:site', '@hyde_php'),
-        Meta::name('twitter:creator', '@StressedDev'),
+        Meta::name('twitter:creator', '@CodeWithCaen'),
         Meta::name('twitter:title', 'HydePHP - Elegant and Powerful Static App Builder'),
         Meta::name('twitter:description', 'Make static websites, blogs, and documentation pages with the tools you already know and love.'),
         Meta::name('twitter:image', 'https://opengraph.githubassets.com/1/hydephp/hyde'),

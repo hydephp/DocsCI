@@ -25,7 +25,7 @@ This guide assumes you have Composer and NPM installed. You also need PHP 8 or h
 Previous command-line experience won't hurt either since we will be using the CLI a lot.
 I'm using Windows PowerShell here, but you can follow along with Bash as well.
 
-This guide will mostly be example-driven. If you have any questions, send me a tweet at @[StressedDev](https://twitter.com/StressedDev).
+This guide will mostly be example-driven. If you have any questions, send me a tweet at @[CodeWithCaen](https://twitter.com/CodeWithCaen).
 
 ## Creating a new project
 Creating a site with Hyde is easy, especially when using Composer!
@@ -286,7 +286,7 @@ especially the first time, but no sweat because we got ourselves some beautiful 
 
 ## Conclusion
 I think that brings this tutorial to a close.
-Send me a Tweet if you have any questions or suggestions! I'm [@StressedDev](https://twitter.com/StressedDev).
+Send me a Tweet if you have any questions or suggestions! I'm [@CodeWithCaen](https://twitter.com/CodeWithCaen).
 
 - The homepage for Hyde is [hydephp.github.io](https://hydephp.com/).
 - The documentation is hosted at [hydephp.github.io/docs](https://hydephp.com/docs/).

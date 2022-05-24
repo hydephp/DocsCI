@@ -31,7 +31,7 @@ class StatisticsController
 
         $response = Http::withHeaders([
             'Accept' => 'application/json',
-            'User-Agent' => 'HydeDocsCI/dev-master (Twitter contact: @StressedDev)',
+            'User-Agent' => 'HydeDocsCI/dev-master (Twitter contact: @CodeWithCaen)',
         ])->get('https://packagist.org/packages/hyde/framework/stats.json');
 
         return $response->object();
@@ -48,7 +48,7 @@ class StatisticsController
 
         $response = Http::withHeaders([
             'Accept' => 'application/json',
-            'User-Agent' => 'HydeDocsCI/dev-master (Twitter contact: @StressedDev)',
+            'User-Agent' => 'HydeDocsCI/dev-master (Twitter contact: @CodeWithCaen)',
         ])->get('https://img.shields.io/tokei/lines/github/hydephp/framework.json');
 
         $object = new \stdClass();
@@ -56,7 +56,7 @@ class StatisticsController
 
         $response = Http::withHeaders([
             'Accept' => 'application/json',
-            'User-Agent' => 'HydeDocsCI/dev-master (Twitter contact: @StressedDev)',
+            'User-Agent' => 'HydeDocsCI/dev-master (Twitter contact: @CodeWithCaen)',
         ])->get('https://img.shields.io/tokei/lines/github/hydephp/hyde.json');
         $object->hyde =  intval(str_replace('K', '', $response->object()->value)) * 1000;
 
