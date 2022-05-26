@@ -248,7 +248,7 @@ return [
     /**
      * @deprecated version 0.25.0, will be renamed to documentationOutputPath
      */
-    'docsDirectory' => 'docs',
+    'docsDirectory' => 'docs/master',
 
     /*
     |--------------------------------------------------------------------------
