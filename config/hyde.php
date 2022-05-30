@@ -57,7 +57,7 @@ return [
     |
     */
 
-    'site_url' => env('SITE_URL', null),
+    'site_url' => 'https://hydephp.com/',
 
     'pretty_urls' => false,
 
@@ -91,12 +91,22 @@ return [
     */
 
     'meta' => [
-        // Meta::name('author', 'Mr. Hyde'),
-        // Meta::name('twitter:creator', '@hyde_php'),
-        // Meta::name('description', 'My Hyde Blog'),
-        // Meta::name('keywords', 'Static Sites, Blogs, Documentation'),
+        Meta::name('author', 'Caen De Silva'),
+        Meta::name('description', 'HydePHP - Elegant and Powerful Static App Builder'),
+        Meta::name('keywords', 'HydePHP, Static App Builder, Static Sites, Blogs, Documentation'),
         Meta::name('generator', 'HydePHP '.Hyde\Framework\Hyde::version()),
+        Meta::name('twitter:card', 'summary'),
+        Meta::name('twitter:site', '@hyde_php'),
+        Meta::name('twitter:creator', '@CodeWithCaen'),
+        Meta::name('twitter:title', 'HydePHP - Elegant and Powerful Static App Builder'),
+        Meta::name('twitter:description', 'Make static websites, blogs, and documentation pages with the tools you already know and love.'),
+        Meta::name('twitter:image', 'https://opengraph.githubassets.com/1/hydephp/hyde'),
         Meta::property('site_name', $siteName),
+        Meta::property('url', 'https://hydephp.com/'),
+        Meta::property('title', 'HydePHP'),
+        Meta::property('description', 'HydePHP - Elegant and Powerful Static App Builder'),
+        Meta::property('image', 'https://opengraph.githubassets.com/1/hydephp/hyde'),
+        Meta::property('image:alt', 'GitHub OpenGraph Image'),
     ],
 
     /*
@@ -184,15 +194,15 @@ return [
     */
 
     'navigation_menu_links' => [
-        // [
-        //     'title' => 'GitHub',
-        //     'destination' => 'https://github.com/hydephp/hyde',
-        //     'priority' => 1200,
-        // ],
-        // [
-        //     'title' => 'Featured Blog Post',
-        //     'slug' => 'posts/hello-world',
-        // ]
+        [
+            'title' => 'GitHub',
+            'destination' => 'https://github.com/hydephp/hyde',
+            'priority' => 1200,
+        ],
+        [
+            'title' => 'Blog',
+            'slug' => 'posts',
+        ]
     ],
 
     /*
@@ -206,6 +216,10 @@ return [
 
     'navigation_menu_blacklist' => [
         '404',
+        'dashboard',
+        'posts',
+        'privacy',
+        'legal',
     ],
 
     /*

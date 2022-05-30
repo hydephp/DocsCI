@@ -21,7 +21,7 @@ return [
     |
     */
 
-    'header_title' => config('hyde.name', 'HydePHP').' Docs',
+    'header_title' => 'HydePHP Docs',
 
     /*
     |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ return [
     |
     */
 
-    'output_directory' => 'docs',
+    'output_directory' => 'docs/master',
 
     /*
     |--------------------------------------------------------------------------
@@ -77,6 +77,6 @@ return [
     'table_of_contents' => [
         'enabled' => true,
         'min_heading_level' => 2,
-        'max_heading_level' => 4,
+        'max_heading_level' => 3,
     ],
 ];
