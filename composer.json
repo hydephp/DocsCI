@@ -17,13 +17,13 @@
     ],
     "require": {
         "php": "^8.0",
-        "hyde/framework": "^0.27.5",
+        "hyde/framework": "^0.29",
         "illuminate/view": "^9.0",
         "laravel-zero/framework": "^9.0",
         "nunomaduro/termwind": "^1.3"
     },
     "require-dev": {
-        "hyde/realtime-compiler": "^1.2",
+        "hyde/realtime-compiler": "^1.3",
         "mockery/mockery": "^1.4.4",
         "pestphp/pest": "^1.21.1"
     },
