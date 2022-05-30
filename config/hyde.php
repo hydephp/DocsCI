@@ -17,6 +17,7 @@
 |
 */
 
+use Hyde\Framework\Helpers\Author;
 use Hyde\Framework\Helpers\Features;
 use Hyde\Framework\Helpers\Meta;
 
@@ -56,11 +57,11 @@ return [
     |
     */
 
-    'site_url' => 'https://hydephp.com/',
+    'site_url' => env('SITE_URL', null),
 
-    'prettyUrls' => false,
+    'pretty_urls' => false,
 
-    'generateSitemap' => true,
+    'generate_sitemap' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -90,22 +91,12 @@ return [
     */
 
     'meta' => [
-        Meta::name('author', 'Caen De Silva'),
-        Meta::name('description', 'HydePHP - Elegant and Powerful Static App Builder'),
-        Meta::name('keywords', 'HydePHP, Static App Builder, Static Sites, Blogs, Documentation'),
+        // Meta::name('author', 'Mr. Hyde'),
+        // Meta::name('twitter:creator', '@hyde_php'),
+        // Meta::name('description', 'My Hyde Blog'),
+        // Meta::name('keywords', 'Static Sites, Blogs, Documentation'),
         Meta::name('generator', 'HydePHP '.Hyde\Framework\Hyde::version()),
-        Meta::name('twitter:card', 'summary'),
-        Meta::name('twitter:site', '@hyde_php'),
-        Meta::name('twitter:creator', '@CodeWithCaen'),
-        Meta::name('twitter:title', 'HydePHP - Elegant and Powerful Static App Builder'),
-        Meta::name('twitter:description', 'Make static websites, blogs, and documentation pages with the tools you already know and love.'),
-        Meta::name('twitter:image', 'https://opengraph.githubassets.com/1/hydephp/hyde'),
         Meta::property('site_name', $siteName),
-        Meta::property('url', 'https://hydephp.com/'),
-        Meta::property('title', 'HydePHP'),
-        Meta::property('description', 'HydePHP - Elegant and Powerful Static App Builder'),
-        Meta::property('image', 'https://opengraph.githubassets.com/1/hydephp/hyde'),
-        Meta::property('image:alt', 'GitHub OpenGraph Image'),
     ],
 
     /*
@@ -128,6 +119,7 @@ return [
 
         // Frontend Features
         Features::darkmode(),
+        Features::documentationSearch(),
 
         // Integrations
         Features::torchlight(),
@@ -135,24 +127,27 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Asset Locations and Versions
+    | Blog Post Authors
     |--------------------------------------------------------------------------
     |
-    | Since v0.15.0, the default Hyde styles are no longer included as
-    | publishable resources. This is to make updating easier, and to
-    | reduce complexity. Instead, the assets are loaded through the
-    | jsDelivr CDN.
+    | Hyde has support for adding authors in front matter, for example to
+    | automatically add a link to your website or social media profiles.
+    | However, it's tedious to have to add those to each and every
+    | post you make, and keeping them updated is even harder.
     |
-    | The CDN version is defined in the AssetService class,
-    | but can be changed here to a valid HydeFront tag.
-    |
-    | If you load HydeFront through Laravel Mix using the NPM package,
-    | you should disable the HydeFront CDN feature.
+    | Here you can add predefined authors. When writing posts,
+    | just specify the username in the front matter, and the
+    | rest of the data will be pulled from a matching entry.
     |
     */
 
-    'loadHydeAssetsUsingCDN' => true,
-    // 'cdnVersionOverride' => 'v1.0.0',
+    'authors' => [
+        Author::create(
+            username: 'mr_hyde', // Required username
+            name: 'Mr. Hyde', // Optional display name
+            website: 'https://hydephp.com' // Optional website URL
+        ),
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -188,16 +183,16 @@ return [
     |
     */
 
-    'navigationMenuLinks' => [
-        [
-            'title' => 'GitHub',
-            'destination' => 'https://github.com/hydephp/hyde',
-            'priority' => 1200,
-        ],
-        [
-            'title' => 'Blog',
-            'slug' => 'posts',
-        ]
+    'navigation_menu_links' => [
+        // [
+        //     'title' => 'GitHub',
+        //     'destination' => 'https://github.com/hydephp/hyde',
+        //     'priority' => 1200,
+        // ],
+        // [
+        //     'title' => 'Featured Blog Post',
+        //     'slug' => 'posts/hello-world',
+        // ]
     ],
 
     /*
@@ -209,46 +204,9 @@ return [
     |
     */
 
-    'navigationMenuBlacklist' => [
+    'navigation_menu_blacklist' => [
         '404',
-        'dashboard',
-        'posts',
-        'privacy',
-        'legal',
     ],
-
-    /*
-    |--------------------------------------------------------------------------
-    | Documentation Sidebar Header Name
-    |--------------------------------------------------------------------------
-    |
-    | By default, the sidebar title shown in the documentation page layouts uses
-    | the app name suffixed with "docs". You can change it with this setting.
-    |
-    */
-
-    'docsSidebarHeaderTitle' => $siteName.' Docs',
-
-    /*
-    |--------------------------------------------------------------------------
-    | Documentation Site Output Directory
-    |--------------------------------------------------------------------------
-    |
-    | If you want to store the compiled documentation pages in a different
-    | directory than the default 'docs' directory, for example to set the
-    | specified version, you can specify the directory here.
-    |
-    | Note that you need to take care as to not set it to something that
-    | may conflict with other parts, such as media or posts directories.
-    |
-    | The default value is 'docs'.
-    |
-    */
-
-    /**
-     * @deprecated version 0.25.0, will be renamed to documentationOutputPath
-     */
-    'docsDirectory' => 'docs/master',
 
     /*
     |--------------------------------------------------------------------------
@@ -263,42 +221,7 @@ return [
     |
     */
 
-    'siteOutputPath' => Hyde\Framework\Hyde::path('_site'),
-
-    /*
-    |--------------------------------------------------------------------------
-    | Documentation Sidebar Page Order
-    |--------------------------------------------------------------------------
-    |
-    | In the generated Documentation pages the navigation links in the sidebar
-    | are sorted alphabetically by default. As this rarely makes sense, you
-    | can reorder the page slugs in the list and the links will be sorted
-    | in that order. Link items without an entry here will have fall
-    | back to the default priority of 999, putting them last.
-    |
-    */
-
-    'documentationPageOrder' => [
-        //
-    ],
-
-    /*
-    |--------------------------------------------------------------------------
-    | Documentation Table of Contents Settings
-    |--------------------------------------------------------------------------
-    |
-    | The Hyde Documentation Module comes with a fancy Sidebar that, by default,
-    | has a Table of Contents included. Here, you can configure its behavior,
-    | content, look and feel. You can also disable the feature completely.
-    |
-    */
-
-    'documentationPageTableOfContents' => [
-        'enabled' => true,
-        'minHeadingLevel' => 2,
-        'maxHeadingLevel' => 3,
-        'smoothPageScrolling' => true,
-    ],
+    'site_output_path' => Hyde\Framework\Hyde::path('_site'),
 
     /*
     |--------------------------------------------------------------------------
@@ -310,6 +233,6 @@ return [
     |
     */
 
-    'warnAboutOutdatedConfig' => true,
+    'warn_about_outdated_config' => true,
 
 ];
