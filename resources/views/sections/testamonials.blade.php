@@ -7,6 +7,33 @@
             * Redacted links and names untill I get permission from them.
         </p>
     </header>
+
+    <article>
+        <header>
+            <address>
+                <a href="https://twitter.com/SavvasStephnds" rel="author">Savvas Stephanides</a>
+            </address>
+            <date>June 09th</date>
+        </header>
+        <blockquote>
+           <p>
+            Caen (<a href="https://twitter.com/CodeWithCaen">@CodeWithCaen</a>)
+            has made a website for his PHP-based static-site generator.
+           </p>
+           <p>
+                What I'm mostly impressed with is how clean and straightforward the documentation. 
+                Writing good documentation is an art and Caen did an amazing job at it. 
+           </p>
+           <p>
+                ⭐️⭐️⭐️⭐️
+           </p>
+        </blockquote>
+        <footer>
+            <a href="https://twitter.com/SavvasStephnds/status/1534928318503391233">
+                See on Twitter</a>
+        </footer>
+    </article>
+
     <article>
         <header>
             <address>
