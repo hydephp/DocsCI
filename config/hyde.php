@@ -112,7 +112,7 @@ return [
                 pioneerAnalytics._writeKey="fa1f4d9f12a5f775c3b983d1090081a2";
                 pioneerAnalytics.load(pioneerAnalytics._writeKey);
                 pioneerAnalytics.page();
-                pioneerAnalytics.debug(true);
+                pioneerAnalytics.debug(false);
               })();
           </script>',
         ],
