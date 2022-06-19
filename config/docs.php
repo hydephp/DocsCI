@@ -61,7 +61,7 @@ return [
     |
     */
 
-    'source_file_location_base' => 'https://github.com/hydephp/docs/blob/master',
+    'source_file_location_base' => 'https://github.com/hydephp/develop/blob/master/docs',
     'edit_source_link_text' => 'Edit Page',
     'edit_source_link_position' => 'footer', // 'header', 'footer', or 'both'
 
