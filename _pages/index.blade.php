@@ -62,11 +62,9 @@
 @push('footer')
 <div class="mt-1 pt-1 border-t border-slate-200 dark:border-slate-700">
 	<small>
-		Landing page attributions:
-		Components based on https://devdojo.com/tails/app.
-		Illustrations by 
-		<a href="https://icons8.com/illustrations/author/d7G1hwdhjPTV" rel="noopener noreferrer nofollow">Semenin Egor</a> from 
-		<a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
+		Landing page components from <a href="https://devdojo.com/tails" rel="noopener noreferrer nofollow">Tails</a>
+		with illustrations by <a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
+		See full list of attributions on the <a href="legal">legal page</a>.
 	</small>
 </div>
 @endpush
