@@ -67,3 +67,35 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </details>
+
+## Attributions, acknowledgements, and credits
+
+Hyde would not be possible without the open source community.
+This list may not be exhaustive, feel free to
+[contribute to this page](https://github.com/hydephp/DocsCI/blob/master/_pages/legal.md)
+
+> Please see the respective authors' repositories for their license files
+
+### General
+
+- The Hyde core is built with [Laravel Zero](https://laravel-zero.com/) which is based on [Laravel](https://laravel.com/)
+- The documentation frontend is based on [Lagrafo - Docs for Laravel apps](https://github.com/caendesilva/lagrafo)
+- The dark mode switch is based on a component from [Flowbite](https://flowbite.com/docs/customize/dark-mode/)
+- The frontend is built with [TailwindCSS](https://tailwindcss.com/)
+  
+- Hyde was inspired by [JekyllRB](https://jekyllrb.com/)
+
+### Branding
+
+The HydePHP logo is based on the following graphics from the Twitter Twemoji project:
+
+- Graphics Title: 1f3a9.svg
+- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f3a9.svg
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+### This website
+
+The HydePHP.com landing page uses components from https://devdojo.com/tails/app and illustrations by 
+<a href="https://icons8.com/illustrations/author/d7G1hwdhjPTV" rel="noopener noreferrer nofollow">Semenin Egor</a> from 
+<a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
