@@ -5,7 +5,8 @@ title: Legal
 # Legal Information
 
 To keep things nice and friendly for everyone, here is some stuff to keep in mind.
-I am not a lawyer and this is not legal advice. 
+I am not a lawyer and this is not legal advice. I'm acting in good faith and
+ask that you do as well.
 
 ## Website Privacy, Cookies, and Analytics
 
