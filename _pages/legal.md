@@ -78,21 +78,21 @@ This list may not be exhaustive, feel free to
 
 ### General
 
-- The Hyde core is built with [Laravel Zero](https://laravel-zero.com/) which is based on [Laravel](https://laravel.com/)
-- The documentation frontend is based on [Lagrafo - Docs for Laravel apps](https://github.com/caendesilva/lagrafo)
-- The dark mode switch is based on a component from [Flowbite](https://flowbite.com/docs/customize/dark-mode/)
-- The frontend is built with [TailwindCSS](https://tailwindcss.com/)
+- The Hyde core is built with [Laravel Zero](https://laravel-zero.com/) which is based on [Laravel](https://laravel.com/){:rel="nofollow noopener"}
+- The documentation frontend is based on [Lagrafo - Docs for Laravel apps](https://github.com/caendesilva/lagrafo){:rel="nofollow noopener"}
+- The dark mode switch is based on a component from [Flowbite](https://flowbite.com/docs/customize/dark-mode/){:rel="nofollow noopener"}
+- The frontend is built with [TailwindCSS](https://tailwindcss.com/){:rel="nofollow noopener"}
   
-- Hyde was inspired by [JekyllRB](https://jekyllrb.com/)
+- Hyde was inspired by [JekyllRB](https://jekyllrb.com/){:rel="nofollow noopener"}
 
 ### Branding
 
 The HydePHP logo is based on the following graphics from the Twitter Twemoji project:
 
 - Graphics Title: 1f3a9.svg
-- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
-- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f3a9.svg
-- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji{:rel="nofollow noopener"})
+- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f3a9.svg{:rel="nofollow noopener"}
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/{:rel="nofollow noopener"})
 
 ### This website
 
