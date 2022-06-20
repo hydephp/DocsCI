@@ -68,3 +68,11 @@ This great power also requires great responsibility. Even though HydePHP itself 
 
 This means that developers must never introduce breaking changes in minor or patch releases. Since the package is in the NPM registry, releases are only ever rolled out manually by the maintainer to ensure that no vulnerable or malicious code is introduced as automatic patch updates could be a security issue. -->
 
+
+Here is a quick overview of the components:
+
+| Name:                             | Hyde                                                  | Framework                                                                               | HydeFront                                                                               |  |
+|-----------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--|
+| Repository:                       | [hydephp/hyde](https://github.com/hydephp/hyde)       | [hydephp/framework](https://github.com/hydephp/framework)                               | [hydephp/hydefront](https://github.com/hydephp/hydefront)                               |  |
+| Package:                          | [hyde/hyde](https://packagist.org/packages/hyde/hyde) | [hyde/framework](https://packagist.org/packages/hyde/framework)                         | [hydefront](https://www.npmjs.com/package/hydefront)                                    |  |
+| Monorepo path:                    | [Root directory](https://github.com/hydephp/develop/) | [packages/framework](https://github.com/hydephp/develop/tree/master/packages/framework) | [packages/hydefront](https://github.com/hydephp/develop/tree/master/packages/hydefront) |  |
