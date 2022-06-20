@@ -101,3 +101,4 @@ The HydePHP logo is based on the following graphics from the Twitter Twemoji pro
 - Buttons based on https://tailwindcomponents.com/component/tailwind-css-buttons{:rel="nofollow noopener"}
 - Syntax highlighting provided by [Torchlight.dev](https://torchlight.dev/){:rel="nofollow noopener"}
 - Gradients by https://uigradients.com/{:rel="nofollow noopener"}
+- The external link icon used on this site is licensed under MIT/Expat and is provided by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:VisualEditor_-_Icon_-_External-link.svg){:rel="nofollow noopener"}

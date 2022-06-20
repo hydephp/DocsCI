@@ -32,9 +32,9 @@
 
 ### Important Repositories
 
-- [The Hyde Project](https://github.com/hydephp/hyde)
-- [The Core Framework](https://github.com/hydephp/framework)
-- [The Development Monorepo](https://github.com/hydephp/develop)
+- [The Hyde Project](https://github.com/hydephp/hyde)![External link](../_media/external.svg "External link"){.ext-link}
+- [The Core Framework](https://github.com/hydephp/framework)![External link](../_media/external.svg "External link"){.ext-link}
+- [The Development Monorepo](https://github.com/hydephp/develop)![External link](../_media/external.svg "External link"){.ext-link}
 
 </div>
 
