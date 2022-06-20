@@ -39,3 +39,10 @@
 </div>
 
 </div>
+
+---
+
+# Developer Resources
+This section is written for those who are interested in contributing to the HydePHP Framework.
+
+If you are looking to build an application using Hyde, you might be looking for the [official documentation](docs).
