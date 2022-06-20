@@ -228,6 +228,12 @@ return [
         'posts',
         'privacy',
         'legal',
+        'changelog',
+        'license',
+        'security',
+        'contributing',
+        'code-of-conduct',
+        'community'
     ],
 
     /*
