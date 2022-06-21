@@ -1,3 +1,4 @@
+
 # Community Portal
 
 > This page is work in progress, but is intended to give you a place to
@@ -76,3 +77,14 @@ Here is a quick overview of the components:
 | Repository:                       | [hydephp/hyde](https://github.com/hydephp/hyde)       | [hydephp/framework](https://github.com/hydephp/framework)                               | [hydephp/hydefront](https://github.com/hydephp/hydefront)                               |  |
 | Package:                          | [hyde/hyde](https://packagist.org/packages/hyde/hyde) | [hyde/framework](https://packagist.org/packages/hyde/framework)                         | [hydefront](https://www.npmjs.com/package/hydefront)                                    |  |
 | Monorepo path:                    | [Root directory](https://github.com/hydephp/develop/) | [packages/framework](https://github.com/hydephp/develop/tree/master/packages/framework) | [packages/hydefront](https://github.com/hydephp/develop/tree/master/packages/hydefront) |  |
+
+Wondering how these components interact with each other?
+Let's visualize the the flow of generating a static page from a Markdown file.
+
+When we run `php hyde build`, we do this from the root directory of the project, which is the Hyde package.
+
+On a low level, running `php hyde` starts the HydeCLI which is the entry point for the entire application. From here, all dependencies are loaded and the application is bootstrapped.
+
+The build command source is located in the Framework package. When running the command, the Framework will scan the content source directories in the Hyde project directory. The Framework will then compile the Markdown and build HTML based on Blade templates around the content.
+
+The compiled output is written to the Hyde project's output directory, and is styled using the HydeFront package.
