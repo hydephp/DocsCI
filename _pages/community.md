@@ -87,7 +87,7 @@ This great power also requires great responsibility. Even though HydePHP itself 
 This means that developers must never introduce breaking changes in minor or patch releases. Since the package is in the NPM registry, releases are only ever rolled out manually by the maintainer to ensure that no vulnerable or malicious code is introduced as automatic patch updates could be a security issue. -->
 
 
-
+<!-- 
 Wondering how these components interact with each other?
 Let's visualize the the flow of generating a static page from a Markdown file.
 
@@ -97,4 +97,4 @@ On a low level, running `php hyde` starts the HydeCLI which is the entry point f
 
 The build command source is located in the Framework package. When running the command, the Framework will scan the content source directories in the Hyde project directory. The Framework will then compile the Markdown and build HTML based on Blade templates around the content.
 
-The compiled output is written to the Hyde project's output directory, and is styled using the HydeFront package.
+The compiled output is written to the Hyde project's output directory, and is styled using the HydeFront package. -->
