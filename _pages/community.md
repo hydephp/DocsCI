@@ -41,6 +41,19 @@
 
 </div>
 
+### Subproject locations
+
+Most of the Hyde development is made in the monorepo found on GitHub in the [HydePHP/Develop](https://github.com/hydephp/develop) repository. Here are quick links to take you to the subprojects within.
+
+#### I want to contribute to the...
+- [Hyde project](https://github.com/hydephp/develop)
+- [Core framework](https://github.com/hydephp/develop/tree/master/packages/framework)
+- [Documentation](https://github.com/hydephp/develop/tree/master/docs)
+- [Frontend](https://github.com/hydephp/develop/tree/master/packages/hydefront)
+- [Test Suite](https://github.com/hydephp/develop/tree/master/tests)
+- [Website](https://github.com/hydephp/docsci)
+
+
 ---
 
 # Developer Resources
