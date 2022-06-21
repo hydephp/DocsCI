@@ -16,7 +16,7 @@ class UpdateCommunityFiles extends Command
     public function handle()
     {
         $files = [
-            'https://raw.githubusercontent.com/hydephp/develop/master/CHANGELOG.md' => '_docs/changelog.md',
+            'https://raw.githubusercontent.com/hydephp/develop/master/CHANGELOG.md' => '_pages/changelog.md',
             'https://raw.githubusercontent.com/hydephp/.github/master/LICENSE.md' => '_pages/license.md',
             'https://raw.githubusercontent.com/hydephp/.github/master/SECURITY.md' => '_pages/security.md',
             'https://raw.githubusercontent.com/hydephp/.github/master/CONTRIBUTING.md' => '_pages/contributing.md',
@@ -29,8 +29,8 @@ class UpdateCommunityFiles extends Command
             file_put_contents(Hyde::path($file), $contents);
         }
 
-        $this->info('Transforming changelog...');
-        file_put_contents(Hyde::path('_docs/changelog.md'), "---\npriority: 40\ncategory: \"Digging Deeper\"\n---\n\n" . file_get_contents(Hyde::path('_docs/changelog.md')));
+        // $this->info('Transforming changelog...');
+        // file_put_contents(Hyde::path('_docs/changelog.md'), "---\npriority: 40\ncategory: \"Digging Deeper\"\n---\n\n" . file_get_contents(Hyde::path('_docs/changelog.md')));
 
         $this->info('Community files downloaded successfully.');
     }

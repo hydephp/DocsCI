@@ -1,7 +1,3 @@
----
-priority: 40
-category: "Digging Deeper"
----
 <!-- NOTE FOR EDITORS: -->
 <!-- Part of this file is machine edited, please leave the comment markers as they are. 
 	 Also, please make sure to keep an empty line before and after each marker. -->
