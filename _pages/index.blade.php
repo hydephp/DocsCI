@@ -27,9 +27,6 @@
 <meta name="keywords" content="HydePHP, Static App Builder, Static Sites, Blogs, Documentation">
 @endpush
 
-<!--
-	Components based on https://devdojo.com/tails/app
--->
 <header id="content" class="app-gradient w-full py-32 lg:pt-44 flex flex-col text-center items-center justify-center min-h-screen -mt-16">
 	<h1 class="text-5xl sm:text-6xl md:text-7xl text-gray-800 font-black leading-7 md:leading-10 dark:text-white">
 		HydePHP
@@ -48,7 +45,7 @@
 		<pre class="max-w-full" style="margin-top: 2.5rem; margin-bottom: 0.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight flex flex-wrap justify-center" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B; margin: 0 4px;">composer</span> <span style="color: #C3E88D; margin: 0 4px;">create-project hyde/hyde</span> <span style="color: #CCCCCC" margin: 0 4px;>--stability=dev</span></code></pre>
 	</div>
 	</div>
-	<div class="sm:my-4 max-w-full flex flex-wrap justify-center">  {{-- Buttons based on https://tailwindcomponents.com/component/tailwind-css-buttons --}}
+	<div class="sm:my-4 max-w-full flex flex-wrap justify-center">
 		<a href="docs/master/index.html" class="btn btn-primary">Documentation</a>
 		<a href="#features" class="btn btn-default">Explore the Features</a>
 	</div>
@@ -62,11 +59,9 @@
 @push('footer')
 <div class="mt-1 pt-1 border-t border-slate-200 dark:border-slate-700">
 	<small>
-		Landing page attributions:
-		Components based on https://devdojo.com/tails/app.
-		Illustrations by 
-		<a href="https://icons8.com/illustrations/author/d7G1hwdhjPTV" rel="noopener noreferrer nofollow">Semenin Egor</a> from 
-		<a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
+		Landing page components from <a href="https://devdojo.com/tails" rel="noopener noreferrer nofollow">Tails</a>
+		with illustrations by <a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
+		See full list of attributions on the <a href="legal">legal page</a>.
 	</small>
 </div>
 @endpush

@@ -5,7 +5,8 @@ title: Legal
 # Legal Information
 
 To keep things nice and friendly for everyone, here is some stuff to keep in mind.
-I am not a lawyer and this is not legal advice. 
+I am not a lawyer and this is not legal advice. I'm acting in good faith and
+ask that you do as well.
 
 ## Website Privacy, Cookies, and Analytics
 
@@ -66,3 +67,38 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </details>
+
+## Attributions, acknowledgements, and credits
+
+Hyde would not be possible without the open source community.
+This list may not be exhaustive, feel free to
+[contribute to this page](https://github.com/hydephp/DocsCI/blob/master/_pages/legal.md)
+
+> Please see the respective authors' repositories for their license files
+
+### General
+
+- The Hyde core is built with [Laravel Zero](https://laravel-zero.com/) which is based on [Laravel](https://laravel.com/){:rel="nofollow noopener"}
+- The documentation frontend is based on [Lagrafo - Docs for Laravel apps](https://github.com/caendesilva/lagrafo){:rel="nofollow noopener"}
+- The dark mode switch is based on a component from [Flowbite](https://flowbite.com/docs/customize/dark-mode/){:rel="nofollow noopener"}
+- The frontend is built with [TailwindCSS](https://tailwindcss.com/){:rel="nofollow noopener"}
+  
+- Hyde was inspired by [JekyllRB](https://jekyllrb.com/){:rel="nofollow noopener"}
+
+### Branding
+
+The HydePHP logo is based on the following graphics from the Twitter Twemoji project:
+
+- Graphics Title: 1f3a9.svg
+- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji{:rel="nofollow noopener"})
+- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f3a9.svg{:rel="nofollow noopener"}
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/{:rel="nofollow noopener"})
+
+### This website
+
+- The HydePHP.com landing page uses components from https://devdojo.com/tails/app{:rel="nofollow noopener"}
+- Landing page illustrations by <a href="https://icons8.com/illustrations/author/d7G1hwdhjPTV" rel="noopener noreferrer nofollow">Semenin Egor</a> from <a href="https://icons8.com/illustrations" rel="noopener noreferrer nofollow">Ouch!</a>.
+- Buttons based on https://tailwindcomponents.com/component/tailwind-css-buttons{:rel="nofollow noopener"}
+- Syntax highlighting provided by [Torchlight.dev](https://torchlight.dev/){:rel="nofollow noopener"}
+- Gradients by https://uigradients.com/{:rel="nofollow noopener"}
+- The external link icon used on this site is licensed under MIT/Expat and is provided by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:VisualEditor_-_Icon_-_External-link.svg){:rel="nofollow noopener"}
