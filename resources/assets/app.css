@@ -68,3 +68,14 @@ img.ext-link {
 .dark img.ext-link {
 	filter: invert(100%);
 }
+
+.flex-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.flex-list li {
+	white-space: nowrap;
+	margin-right: 3rem;
+}
