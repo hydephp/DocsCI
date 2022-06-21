@@ -233,7 +233,8 @@ return [
         'security',
         'contributing',
         'code-of-conduct',
-        'community'
+        'community',
+        'index-alt'
     ],
 
     /*
