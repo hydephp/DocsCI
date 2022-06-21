@@ -29,9 +29,9 @@
 
 ### Important Repositories
 
-- [The Hyde Project](https://github.com/hydephp/hyde)![External link](../_media/external.svg "External link"){.ext-link}
-- [The Core Framework](https://github.com/hydephp/framework)![External link](../_media/external.svg "External link"){.ext-link}
-- [The Development Monorepo](https://github.com/hydephp/develop)![External link](../_media/external.svg "External link"){.ext-link}
+- [The Hyde Project](https://github.com/hydephp/hyde)![External link](media/external.svg "External link"){.ext-link}
+- [The Core Framework](https://github.com/hydephp/framework)![External link](media/external.svg "External link"){.ext-link}
+- [The Development Monorepo](https://github.com/hydephp/develop)![External link](media/external.svg "External link"){.ext-link}
 
 </div>
 
