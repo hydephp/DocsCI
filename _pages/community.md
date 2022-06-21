@@ -55,14 +55,36 @@ If you are looking to build an application using Hyde, you might be looking for 
 
 This means that when contributing to the code, we submit the code to a single "mono" repository where the code is automatically split into separate read-only repositories for each component.
 
-The two most important components are **Hyde** and **Framework**. We also use **HydeFront** for frontend assets.
+The two most important components are **Hyde** and **Framework**. We also use **HydeFront** for frontend assets. Here is a quick overview.
 
-**The Hyde package is what the end-user sees and interacts with.** When creating a new HydePHP site, this is done using the Hyde project. The package contains all the necessary files to run a HydePHP site and bootstraps the entire system.
 
-**The Framework package holds most of the logic of the Hyde framework.** This is where all the data models, static site generators, HydeCLI commands, Blade views, and more, are stored. Having this in a package makes it much easier to version and update using Composer.
+### Hyde/Hyde - The HydePHP Project
+
+**The Hyde package is what the end-user sees and interacts with.** When creating a new HydePHP site, this is done using the Hyde project. The package contains all the necessary files to run a HydePHP site and bootstraps the entire system. _Equivalent to Laravel/Laravel_
+
+- GitHub: https://github.com/hydephp/hyde
+- Packagist: https://packagist.org/packages/hyde/hyde
+- Contribute to source: https://github.com/hydephp/develop
+
+
+### Hyde/Framework - The Core Framework
+
+**The Framework package holds most of the logic of the Hyde framework.** This is where all the data models, static site generators, HydeCLI commands, Blade views, and more, are stored. Having this in a package makes it much easier to version and update using Composer. _Equivalent to Laravel/Framework_
+
+- GitHub: https://github.com/hydephp/framework
+- Packagist: https://packagist.org/packages/hyde/framework
+- Contribute to source: https://github.com/hydephp/develop/tree/master/packages/framework
+
+
+### Hyde/HydeFront - The Frontend Assets
 
 **The HydeFront package contains stylesheets and scripts** to help make HydePHP sites accessible and interactive. It also includes a pre-compiled TailwindCSS file containing all the styles needed for the built-in Blade templates.
 
+- GitHub: https://github.com/hydephp/hydefront
+- NPM: https://www.npmjs.com/package/hydefront
+- JsDelivr: https://www.jsdelivr.com/package/npm/hydefront
+- Contribute to source: https://github.com/hydephp/develop/tree/master/packages/hydefront
+  
 <!-- Became very long, saving for a blog post. It's a separate package for a few reasons. Partly to separate presentation and logic, and also to allow hosting of the styles on a CDN. We take advantage of this as we control the HydeFront version in the Framework package, so we can be sure that Blade templates always use the correct version. This also means that we can issue bug-fixing patches to live sites without needing users to recompile their sites.
 
 This great power also requires great responsibility. Even though HydePHP itself is in the beta stage and is in the 0.x semantic versioning range and has no compatibility guarantees, HydeFront is strictly versioned and is in the 1.x semantic versioning range.
@@ -72,11 +94,11 @@ This means that developers must never introduce breaking changes in minor or pat
 
 Here is a quick overview of the components:
 
-| Name:                             | Hyde                                                  | Framework                                                                               | HydeFront                                                                               |  |
-|-----------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--|
-| Repository:                       | [hydephp/hyde](https://github.com/hydephp/hyde)       | [hydephp/framework](https://github.com/hydephp/framework)                               | [hydephp/hydefront](https://github.com/hydephp/hydefront)                               |  |
-| Package:                          | [hyde/hyde](https://packagist.org/packages/hyde/hyde) | [hyde/framework](https://packagist.org/packages/hyde/framework)                         | [hydefront](https://www.npmjs.com/package/hydefront)                                    |  |
-| Monorepo path:                    | [Root directory](https://github.com/hydephp/develop/) | [packages/framework](https://github.com/hydephp/develop/tree/master/packages/framework) | [packages/hydefront](https://github.com/hydephp/develop/tree/master/packages/hydefront) |  |
+| Name:                             | Hyde                                                  | Framework                                                                               | HydeFront                                                                               |
+|-----------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Repository:                       | [hydephp/hyde](https://github.com/hydephp/hyde)       | [hydephp/framework](https://github.com/hydephp/framework)                               | [hydephp/hydefront](https://github.com/hydephp/hydefront)                               |
+| Package:                          | [hyde/hyde](https://packagist.org/packages/hyde/hyde) | [hyde/framework](https://packagist.org/packages/hyde/framework)                         | [hydefront](https://www.npmjs.com/package/hydefront)                                    |
+| Monorepo path:                    | [Root directory](https://github.com/hydephp/develop/) | [packages/framework](https://github.com/hydephp/develop/tree/master/packages/framework) | [packages/hydefront](https://github.com/hydephp/develop/tree/master/packages/hydefront) |
 
 Wondering how these components interact with each other?
 Let's visualize the the flow of generating a static page from a Markdown file.
