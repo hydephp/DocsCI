@@ -1,30 +1,3 @@
-# Hyde Documentation CI
-[![Build the site](https://github.com/hydephp/DocsCI/actions/workflows/build.yml/badge.svg)](https://github.com/hydephp/DocsCI/actions/workflows/build.yml)
+# This project has moved
 
-This repo is part of the CI pipeline for the https://hydephp.com/ website and replaces the repo previosly found in https://github.com/hydephp/docs/.
-
-## Contributing
-
-You are very welcomne to contribute to the documentation source Markdown in the https://github.com/hydephp/docs/ repo. They will automatically be pushed to this repo.
-
-## How does it work?
-When a file is changed on the Docs repo it gets automatically pushed to the `_docs` directory here in the DocsCI repo. Once a file here is changed the CI will kick in and compile the site to static HTML. It then uploads the compiled files to the [website repo](https://github.com/hydephp/hydephp.github.io) where the site then gets automatically uploaded to GitHub Pages.
-
-## Usage
-
-While the main purpose of this repo is to generate the static HTML Documentation pages you can also clone it to quickstart development of your own documentation site!
-
-## Credits
-
--   [Caen De Silva](https://github.com/caendesilva), feel free to buy me a coffee! https://www.buymeacoffee.com/caen
--   [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Attributions
-> Please see the respective authors' repositories for their license files
-
-- The Hyde core is built with [Laravel Zero](https://laravel-zero.com/) which is based on [Laravel](https://laravel.com/)
-- The frontend is built with [TailwindCSS](https://tailwindcss.com/).
+It's easier than ever to host HydePHP sites on GitHub. The HydePHP.com source code has moved to https://github.com/hydephp/HydePHP.com.
